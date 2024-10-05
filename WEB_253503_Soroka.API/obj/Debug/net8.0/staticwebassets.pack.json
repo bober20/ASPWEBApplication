@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.API/wwwroot/Images/default-profile-picture.png",
+      "PackagePath": "staticwebassets/Images/default-profile-picture.png"
+    },
+    {
+      "Id": "/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.API/wwwroot/Images/gentlemen.webp",
+      "PackagePath": "staticwebassets/Images/gentlemen.webp"
+    },
+    {
+      "Id": "/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.API/wwwroot/Images/gumihodyeon.webp",
+      "PackagePath": "staticwebassets/Images/gumihodyeon.webp"
+    },
+    {
+      "Id": "/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.API/wwwroot/Images/lessons_in_chemistry.webp",
+      "PackagePath": "staticwebassets/Images/lessons_in_chemistry.webp"
+    },
+    {
+      "Id": "/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.API/wwwroot/Images/mindhunter.webp",
+      "PackagePath": "staticwebassets/Images/mindhunter.webp"
+    },
+    {
+      "Id": "/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.API/wwwroot/Images/taboo.webp",
+      "PackagePath": "staticwebassets/Images/taboo.webp"
+    },
+    {
+      "Id": "/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.API/wwwroot/Images/the_fall_of_the_house_of_usher.webp",
+      "PackagePath": "staticwebassets/Images/the_fall_of_the_house_of_usher.webp"
+    },
+    {
+      "Id": "/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.API/wwwroot/Images/the_knick.webp",
+      "PackagePath": "staticwebassets/Images/the_knick.webp"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.WEB_253503_Soroka.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.WEB_253503_Soroka.API.props",
+      "PackagePath": "build\\WEB_253503_Soroka.API.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WEB_253503_Soroka.API.props",
+      "PackagePath": "buildMultiTargeting\\WEB_253503_Soroka.API.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WEB_253503_Soroka.API.props",
+      "PackagePath": "buildTransitive\\WEB_253503_Soroka.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

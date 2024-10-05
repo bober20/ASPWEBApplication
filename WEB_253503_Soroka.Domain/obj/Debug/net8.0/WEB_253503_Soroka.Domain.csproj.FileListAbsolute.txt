@@ -1,0 +1,11 @@
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Domain/bin/Debug/net8.0/WEB_253503_Soroka.Domain.deps.json
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Domain/bin/Debug/net8.0/WEB_253503_Soroka.Domain.dll
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Domain/bin/Debug/net8.0/WEB_253503_Soroka.Domain.pdb
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Domain/obj/Debug/net8.0/WEB_253503_Soroka.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Domain/obj/Debug/net8.0/WEB_253503_Soroka.Domain.AssemblyInfoInputs.cache
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Domain/obj/Debug/net8.0/WEB_253503_Soroka.Domain.AssemblyInfo.cs
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Domain/obj/Debug/net8.0/WEB_253503_Soroka.Domain.csproj.CoreCompileInputs.cache
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Domain/obj/Debug/net8.0/WEB_253503_Soroka.Domain.dll
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Domain/obj/Debug/net8.0/refint/WEB_253503_Soroka.Domain.dll
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Domain/obj/Debug/net8.0/WEB_253503_Soroka.Domain.pdb
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Domain/obj/Debug/net8.0/ref/WEB_253503_Soroka.Domain.dll

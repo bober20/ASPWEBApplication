@@ -1,0 +1,6 @@
+@WEB_253503_Soroka.API_HostAddress = http://localhost:5285
+
+GET {{WEB_253503_Soroka.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
