@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace WEB_253503_Soroka.UI.ApiServices;
+namespace WEB_253503_Soroka.UI.ApiServices.FileServices;
 
 public class ApiFileService : IFileService
 {

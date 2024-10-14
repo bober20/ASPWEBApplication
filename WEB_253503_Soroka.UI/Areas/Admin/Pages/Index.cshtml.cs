@@ -9,7 +9,7 @@ using WEB_253503_Soroka.API.Data;
 using WEB_253503_Soroka.Domain.Entities;
 using WEB_253503_Soroka.UI.Services.ShowService;
 
-namespace WEB_253503_Soroka.UI.Areas.Admin.Pages.Shows
+namespace WEB_253503_Soroka.UI.Areas.Admin.Pages
 {
     public class IndexModel : PageModel
     {

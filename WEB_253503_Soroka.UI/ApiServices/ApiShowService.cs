@@ -3,6 +3,7 @@ using System.Text.Json;
 using WEB_253503_Soroka.Domain.Entities;
 using WEB_253503_Soroka.Domain.Models;
 using WEB_253503_Soroka.UI.Services.ShowService;
+using WEB_253503_Soroka.UI.ApiServices.FileServices;
 
 namespace WEB_253503_Soroka.UI.ApiServices;
 
@@ -12,8 +13,10 @@ public class ApiShowService : IShowService
     private ILogger<ApiShowService> _logger;
     private string _pageSize;
     private JsonSerializerOptions _serializerOptions;
-    
-    public ApiShowService(HttpClient httpClient, IConfiguration configuration, ILogger<ApiShowService> logger)
+    private IFileService _fileService;
+
+    public ApiShowService(HttpClient httpClient, IConfiguration configuration, ILogger<ApiShowService> logger,
+        IFileService fileService)
     {
         _httpClient = httpClient;
         _pageSize = configuration.GetSection("ItemsPerPage").Value;
@@ -22,29 +25,8 @@ public class ApiShowService : IShowService
             PropertyNamingPolicy = JsonNamingPolicy.CamelCase
         };
         _logger = logger;
+        _fileService = fileService;
     }
-
-    // public async Task<ResponseData<ListModel<Show>>> GetShowListAsync()
-    // {
-    //     var response = await _httpClient.GetAsync(new Uri($"{_httpClient.BaseAddress.AbsoluteUri}/shows"));
-    //
-    //     if (response.IsSuccessStatusCode)
-    //     {
-    //         try
-    //         {
-    //             return await response.Content.ReadFromJsonAsync<ResponseData<ListModel<Show>>>(_serializerOptions);
-    //         }
-    //         catch(JsonException ex)
-    //         {
-    //             _logger.LogError($"-----> Ошибка: {ex.Message}");
-    //             return ResponseData<ListModel<Show>>.Error($"Ошибка: {ex.Message}");
-    //         }
-    //     }
-    //     
-    //     _logger.LogError($"-----> Данные не получены от сервера. Error: {response.StatusCode.ToString()}");
-    //     return ResponseData<ListModel<Show>>.Error(
-    //         $"Данные не получены от сервера. Error: {response.StatusCode.ToString()}");
-    // }
 
     public async Task<ResponseData<ListModel<Show>>> GetShowListAsync(string? genreNormalizedName, int pageNo = 1)
     {
@@ -67,20 +49,20 @@ public class ApiShowService : IShowService
         }
 
         var response = await _httpClient.GetAsync(new Uri(urlString.ToString()));
-        
+
         if (response.IsSuccessStatusCode)
         {
             try
             {
                 return await response.Content.ReadFromJsonAsync<ResponseData<ListModel<Show>>>(_serializerOptions);
             }
-            catch(JsonException ex)
+            catch (JsonException ex)
             {
                 _logger.LogError($"-----> Ошибка: {ex.Message}");
                 return ResponseData<ListModel<Show>>.Error($"Ошибка: {ex.Message}");
             }
         }
-        
+
         _logger.LogError($"-----> Данные не получены от сервера. Error: {response.StatusCode.ToString()}");
         return ResponseData<ListModel<Show>>.Error(
             $"Данные не получены от сервера. Error: {response.StatusCode.ToString()}");
@@ -98,13 +80,13 @@ public class ApiShowService : IShowService
             {
                 return await response.Content.ReadFromJsonAsync<ResponseData<Show>>(_serializerOptions);
             }
-            catch(JsonException ex)
+            catch (JsonException ex)
             {
                 _logger.LogError($"-----> Ошибка: {ex.Message}");
                 return ResponseData<Show>.Error($"Ошибка: {ex.Message}");
             }
         }
-        
+
         _logger.LogError($"-----> Данные не получены от сервера. Error: {response.StatusCode.ToString()}");
         return ResponseData<Show>.Error(
             $"Данные не получены от сервера. Error: {response.StatusCode.ToString()}");
@@ -122,7 +104,16 @@ public class ApiShowService : IShowService
 
     public async Task<ResponseData<Show>> CreateShowAsync(Show show, IFormFile? formFile)
     {
-        var uri = new Uri(_httpClient.BaseAddress.AbsoluteUri + "genres");
+        show.Image = "Images/default-profile-picture.png";
+
+        if (formFile != null)
+        {
+            var imageUrl = await _fileService.SaveFileAsync(formFile);
+            if (!string.IsNullOrEmpty(imageUrl)) 
+                show.Image = imageUrl;
+        }
+        
+        var uri = new Uri($"{_httpClient.BaseAddress.AbsoluteUri}genres");
 
         var response = await _httpClient.PostAsJsonAsync(uri, show, _serializerOptions);
 
@@ -132,7 +123,7 @@ public class ApiShowService : IShowService
 
             return data;
         }
-        
+
         _logger.LogError($"object was not created. Error: {response.StatusCode.ToString()}");
 
         return ResponseData<Show>.Error($"Object was not added. Error: {response.StatusCode.ToString()}");

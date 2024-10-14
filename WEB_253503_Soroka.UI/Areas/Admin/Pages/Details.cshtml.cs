@@ -6,10 +6,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using WEB_253503_Soroka.API.Data;
-using WEB_253503_Soroka.API.Services.ShowService;
+using WEB_253503_Soroka.UI.Services.ShowService;
 using WEB_253503_Soroka.Domain.Entities;
 
-namespace WEB_253503_Soroka.UI.Areas.Admin.Pages.Shows
+namespace WEB_253503_Soroka.UI.Areas.Admin.Pages
 {
     public class DetailsModel : PageModel
     {
@@ -22,23 +22,22 @@ namespace WEB_253503_Soroka.UI.Areas.Admin.Pages.Shows
 
         public Show Show { get; set; } = default!;
 
-        // public async Task<IActionResult> OnGetAsync(int? id)
-        // {
-        //     if (id == null)
-        //     {
-        //         return NotFound();
-        //     }
-        //
-        //     var show = await _context.Shows.FirstOrDefaultAsync(m => m.Id == id);
-        //     if (show == null)
-        //     {
-        //         return NotFound();
-        //     }
-        //     else
-        //     {
-        //         Show = show;
-        //     }
-        //     return Page();
-        // }
+        public async Task<IActionResult> OnGetAsync(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+        
+            var response = await _showService.GetShowByIdAsync((int)id);
+
+            if (response.Successfull)
+            {
+                Show = response.Data;
+                return Page();
+            }
+            
+            return NotFound();
+        }
     }
 }

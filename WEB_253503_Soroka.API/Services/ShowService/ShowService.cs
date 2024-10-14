@@ -66,15 +66,14 @@ public class ShowService : IShowService
 
     public async Task<ResponseData<Show>> GetShowByIdAsync(int id)
     {
-        var query = _dbContext.Shows.AsQueryable();
-        var requiredShow = await query.FirstOrDefaultAsync(show => show.Id == id);
+        var show = await _dbContext.Shows.FindAsync(id);
 
-        if (requiredShow is null)
+        if (show is null)
         {
             return ResponseData<Show>.Error("There is no show with such id.");
         }
 
-        return ResponseData<Show>.Success(requiredShow);
+        return ResponseData<Show>.Success(show);
     }
 
     public async Task UpdateShowAsync(int id, Show show)
