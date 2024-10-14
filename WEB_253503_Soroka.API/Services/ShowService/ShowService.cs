@@ -20,6 +20,14 @@ public class ShowService : IShowService
         _dbContext = dbContext;
         _genres = genreService.GetGenreListAsync().Result.Data;
     }
+
+    public async Task<ResponseData<ListModel<Show>>> GetShowListAsync()
+    {
+        var query = _dbContext.Shows.AsQueryable();
+        var dataList = new ListModel<Show>();
+        dataList.Items = await query.ToListAsync();
+        return ResponseData<ListModel<Show>>.Success(dataList);
+    }
     
     public async Task<ResponseData<ListModel<Show>>> GetShowListAsync(string? genreNormalizedName, int pageNo = 1, int pageSize = 3)
     {
@@ -46,16 +54,27 @@ public class ShowService : IShowService
         }
 
         dataList.Items =
-            await query.Skip((pageNo - 1) * pageSize).Take(pageSize).OrderBy(show => show.Id).ToListAsync();
+            await query.Skip((pageNo - 1) * pageSize)
+                .Take(pageSize)
+                .OrderBy(show => show.Id)
+                .ToListAsync();
         dataList.CurrentPage = pageNo;
         dataList.TotalPages = totalPages;
 
         return ResponseData<ListModel<Show>>.Success(dataList);
     }
 
-    public Task<ResponseData<Show>> GetShowByIdAsync(int id)
+    public async Task<ResponseData<Show>> GetShowByIdAsync(int id)
     {
-        throw new NotImplementedException();
+        var query = _dbContext.Shows.AsQueryable();
+        var requiredShow = await query.FirstOrDefaultAsync(show => show.Id == id);
+
+        if (requiredShow is null)
+        {
+            return ResponseData<Show>.Error("There is no show with such id.");
+        }
+
+        return ResponseData<Show>.Success(requiredShow);
     }
 
     public async Task UpdateShowAsync(int id, Show show)

@@ -13,6 +13,9 @@ UriData uriData = builder.Configuration.GetRequiredSection("UriData").Get<UriDat
 builder.Services.AddHttpClient<IGenreService, ApiGenreService>(opt => opt.BaseAddress=new Uri(uriData.ApiUri));
 builder.Services.AddHttpClient<IShowService, ApiShowService>(opt => opt.BaseAddress=new Uri(uriData.ApiUri));
 
+builder.Services.AddHttpClient<IFileService, ApiFileService>(opt =>
+    opt.BaseAddress = new Uri($"{uriData.ApiUri}files"));
+
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
@@ -36,9 +39,23 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.MapAreaControllerRoute(
-    name: "AreaAdmin",
-    areaName: "Admin",
-    pattern: "Admin/{controller=Admin}/{action=Index}");
+app.MapRazorPages();
+
+// app.MapAreaControllerRoute(
+//     name: "AreaAdmin",
+//     areaName: "Admin",
+//     pattern: "Admin/{page=Index}");
+
+// app.MapControllerRoute(
+//     name: "Admin",
+//     pattern: "{area:exists}/{controller=Admin}/{action=Index}");
+
+// app.UseEndpoints(endpoints =>
+// {
+//     endpoints.MapRazorPages();
+//     endpoints.MapControllerRoute(
+//         name: "areas",
+//         pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+// });
 
 app.Run();

@@ -9,3 +9,4 @@
 /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Domain/obj/Debug/net8.0/refint/WEB_253503_Soroka.Domain.dll
 /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Domain/obj/Debug/net8.0/WEB_253503_Soroka.Domain.pdb
 /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Domain/obj/Debug/net8.0/ref/WEB_253503_Soroka.Domain.dll
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Domain/obj/Debug/net8.0/WEB_253503_Soroka.Domain.sourcelink.json

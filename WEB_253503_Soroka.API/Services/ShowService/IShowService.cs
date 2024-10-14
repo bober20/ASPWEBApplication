@@ -5,6 +5,8 @@ namespace WEB_253503_Soroka.API.Services.ShowService;
 
 public interface IShowService
 {
+    public Task<ResponseData<ListModel<Show>>> GetShowListAsync();
+
     public Task<ResponseData<ListModel<Show>>> GetShowListAsync(string? genreNormalizedName, int pageNo=1, int pageSize = 3);
 
     public Task<ResponseData<Show>> GetShowByIdAsync(int id);

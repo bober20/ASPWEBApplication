@@ -32,7 +32,13 @@ namespace WEB_253503_Soroka.API.Controllers
         //     return await _context.Shows.ToListAsync();
         // }
         
-        [Route("{genreNormalizedName?}")]
+        // [HttpGet]
+        // public async Task<ActionResult<ResponseData<ListModel<Show>>>> GetShows()
+        // {
+        //     return Ok(await _service.GetShowListAsync());
+        // }
+        
+        [Route("genres/{genreNormalizedName?}")]
         [HttpGet]
         public async Task<ActionResult<ResponseData<ListModel<Show>>>> GetShows(string? genreNormalizedName, 
                                                                                 int pageNo = 1, 
@@ -42,18 +48,11 @@ namespace WEB_253503_Soroka.API.Controllers
         }
 
         // GET: api/Shows/5
-        // [HttpGet]
-        // public async Task<ActionResult<Show>> GetShow(int id)
-        // {
-        //     var show = await _context.Shows.FindAsync(id);
-        //
-        //     if (show == null)
-        //     {
-        //         return NotFound();
-        //     }
-        //
-        //     return show;
-        // }
+        [HttpGet]
+        public async Task<ActionResult<Show>> GetShow(int id)
+        {
+            return Ok(await _service.GetShowByIdAsync(id));
+        }
 
         // PUT: api/Shows/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
