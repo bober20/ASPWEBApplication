@@ -15,7 +15,7 @@ builder.Services.AddHttpClient<IGenreService, ApiGenreService>(opt => opt.BaseAd
 builder.Services.AddHttpClient<IShowService, ApiShowService>(opt => opt.BaseAddress = new Uri(uriData.ApiUri));
 
 builder.Services.AddHttpClient<IFileService, ApiFileService>(opt =>
-    opt.BaseAddress = new Uri($"{uriData.ApiUri}files"));
+    opt.BaseAddress = new Uri($"{uriData.ApiUri}file"));
 
 builder.Services.AddRazorPages();
 

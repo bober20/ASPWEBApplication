@@ -116,9 +116,23 @@ public class ApiShowService : IShowService
             $"Данные не получены от сервера. Error: {response.StatusCode.ToString()}");
     }
 
-    public Task UpdateShowAsync(int id, Show show, IFormFile? formFile)
+    public async Task UpdateShowAsync(int id, Show show, IFormFile? formFile)
     {
-        throw new NotImplementedException();
+        var uri = new Uri($"{_httpClient.BaseAddress.AbsoluteUri}shows/{id}");
+
+        if (formFile is not null)
+        {
+            await _fileService.DeleteFileAsync(formFile.FileName);
+            var newFileName = await _fileService.SaveFileAsync(formFile);
+            show.Image = newFileName;
+        }
+
+        var response = await _httpClient.PutAsJsonAsync(uri, show);
+
+        if (!response.IsSuccessStatusCode)
+        {
+            _logger.LogError($"-----> Данные не получены от сервера. Error: {response.StatusCode.ToString()}");
+        }
     }
 
     public async Task DeleteShowAsync(int id)

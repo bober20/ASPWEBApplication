@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.API/wwwroot/Images/0h2rk425.webp",
+      "PackagePath": "staticwebassets/Images/0h2rk425.webp"
+    },
+    {
       "Id": "/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.API/wwwroot/Images/default-profile-picture.png",
       "PackagePath": "staticwebassets/Images/default-profile-picture.png"
     },

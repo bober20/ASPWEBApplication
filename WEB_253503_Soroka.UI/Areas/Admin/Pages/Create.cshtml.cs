@@ -40,10 +40,10 @@ namespace WEB_253503_Soroka.UI.Areas.Admin.Pages
         public Show Show { get; set; } = default!;
         
         [BindProperty]
-        public IFormFile? ImageFile { get; set; } = default!;
+        public IFormFile? ImageFile { get; set; }
         
         [BindProperty]
-        public int ChosenGenreId { get; set; } = default!;
+        public int ChosenGenreId { get; set; }
         
         public async Task<IActionResult> OnPostAsync()
         {

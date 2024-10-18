@@ -1,4 +1,5 @@
 using System.Text;
+using System.Net.Http.Headers;
 
 namespace WEB_253503_Soroka.UI.ApiServices.FileServices;
 
@@ -13,23 +14,20 @@ public class ApiFileService : IFileService
     
     public async Task<string> SaveFileAsync(IFormFile formFile)
     {
-        var request = new HttpRequestMessage
-        {
-            Method = HttpMethod.Post
-        };
-
+        var urlString = new Uri($"{_httpClient.BaseAddress.AbsoluteUri}");
         var extension = Path.GetExtension(formFile.FileName);
         var newName = Path.ChangeExtension(Path.GetRandomFileName(), extension);
 
         var content = new MultipartFormDataContent();
         var streamContent = new StreamContent(formFile.OpenReadStream());
+        streamContent.Headers.ContentType = new MediaTypeHeaderValue(formFile.ContentType);
+
         content.Add(streamContent, "file", newName);
-        
-        request.Content = content;
-        
-        var response = await _httpClient.SendAsync(request);
+
+        var response = await _httpClient.PostAsync(urlString, content);
         if (response.IsSuccessStatusCode)
         {
+            // Вернуть полученный Url сохраненного файла
             return await response.Content.ReadAsStringAsync();
         }
         return String.Empty;
