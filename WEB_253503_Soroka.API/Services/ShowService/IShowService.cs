@@ -15,7 +15,7 @@ public interface IShowService
 
     public Task DeleteShowAsync(int id);
 
-    public Task CreateShowAsync(Show show);
+    public Task<ResponseData<Show>> CreateShowAsync(Show show);
 
     public Task<ResponseData<string>> SaveImageAsync(int id, IFormFile formFile);
 }

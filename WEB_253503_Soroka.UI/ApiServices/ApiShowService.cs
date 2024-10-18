@@ -27,6 +27,30 @@ public class ApiShowService : IShowService
         _logger = logger;
         _fileService = fileService;
     }
+    
+    public async Task<ResponseData<ListModel<Show>>> GetShowListAsync()
+    {
+        var urlString = new StringBuilder($"{_httpClient.BaseAddress.AbsoluteUri}shows");
+
+        var response = await _httpClient.GetAsync(new Uri(urlString.ToString()));
+
+        if (response.IsSuccessStatusCode)
+        {
+            try
+            {
+                return await response.Content.ReadFromJsonAsync<ResponseData<ListModel<Show>>>(_serializerOptions);
+            }
+            catch (JsonException ex)
+            {
+                _logger.LogError($"-----> Ошибка: {ex.Message}");
+                return ResponseData<ListModel<Show>>.Error($"Ошибка: {ex.Message}");
+            }
+        }
+
+        _logger.LogError($"-----> Данные не получены от сервера. Error: {response.StatusCode.ToString()}");
+        return ResponseData<ListModel<Show>>.Error(
+            $"Данные не получены от сервера. Error: {response.StatusCode.ToString()}");
+    }
 
     public async Task<ResponseData<ListModel<Show>>> GetShowListAsync(string? genreNormalizedName, int pageNo = 1)
     {
@@ -97,9 +121,16 @@ public class ApiShowService : IShowService
         throw new NotImplementedException();
     }
 
-    public Task DeleteShowAsync(int id)
+    public async Task DeleteShowAsync(int id)
     {
-        throw new NotImplementedException();
+        var uri = new Uri($"{_httpClient.BaseAddress.AbsoluteUri}shows/{id}");
+
+        var response = await _httpClient.DeleteAsync(uri);
+
+        if (!response.IsSuccessStatusCode)
+        {
+            _logger.LogError($"-----> Данные не получены от сервера. Error: {response.StatusCode.ToString()}");
+        }
     }
 
     public async Task<ResponseData<Show>> CreateShowAsync(Show show, IFormFile? formFile)
@@ -113,7 +144,7 @@ public class ApiShowService : IShowService
                 show.Image = imageUrl;
         }
         
-        var uri = new Uri($"{_httpClient.BaseAddress.AbsoluteUri}genres");
+        var uri = new Uri($"{_httpClient.BaseAddress.AbsoluteUri}shows");
 
         var response = await _httpClient.PostAsJsonAsync(uri, show, _serializerOptions);
 
@@ -121,7 +152,7 @@ public class ApiShowService : IShowService
         {
             var data = await response.Content.ReadFromJsonAsync<ResponseData<Show>>(_serializerOptions);
 
-            return data;
+            return data!;
         }
 
         _logger.LogError($"object was not created. Error: {response.StatusCode.ToString()}");

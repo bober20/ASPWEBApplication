@@ -32,11 +32,11 @@ namespace WEB_253503_Soroka.API.Controllers
         //     return await _context.Shows.ToListAsync();
         // }
         
-        // [HttpGet]
-        // public async Task<ActionResult<ResponseData<ListModel<Show>>>> GetShows()
-        // {
-        //     return Ok(await _service.GetShowListAsync());
-        // }
+        [HttpGet]
+        public async Task<ActionResult<ResponseData<ListModel<Show>>>> GetShows()
+        {
+            return Ok(await _service.GetShowListAsync());
+        }
         
         [Route("genres/{genreNormalizedName?}")]
         [HttpGet]
@@ -63,26 +63,16 @@ namespace WEB_253503_Soroka.API.Controllers
             {
                 return BadRequest();
             }
-
-            _context.Entry(show).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!ShowExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
+        
+            await _service.UpdateShowAsync(id, show);
+        
             return NoContent();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> PostShow(Show show)
+        {
+            return Ok(await _service.CreateShowAsync(show));
         }
 
         // POST: api/Shows
@@ -100,14 +90,14 @@ namespace WEB_253503_Soroka.API.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteShow(int id)
         {
-            var show = await _context.Shows.FindAsync(id);
-            if (show == null)
+            var response = await _service.GetShowByIdAsync(id);
+            
+            if (!response.Successfull)
             {
                 return NotFound();
             }
 
-            _context.Shows.Remove(show);
-            await _context.SaveChangesAsync();
+            await _service.DeleteShowAsync(id);
 
             return NoContent();
         }

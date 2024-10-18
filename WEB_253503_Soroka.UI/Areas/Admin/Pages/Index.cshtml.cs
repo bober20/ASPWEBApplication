@@ -24,7 +24,7 @@ namespace WEB_253503_Soroka.UI.Areas.Admin.Pages
 
         public async Task OnGetAsync()
         {
-            Show = (await _showService.GetShowListAsync("")).Data.Items;
+            Show = (await _showService.GetShowListAsync()).Data.Items;
         }
     }
 }

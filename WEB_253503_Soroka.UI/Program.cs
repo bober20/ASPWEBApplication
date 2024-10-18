@@ -11,8 +11,8 @@ builder.Services.AddControllersWithViews();
 // builder.RegisterCustomServices();
 
 UriData uriData = builder.Configuration.GetRequiredSection("UriData").Get<UriData>()!;
-builder.Services.AddHttpClient<IGenreService, ApiGenreService>(opt => opt.BaseAddress=new Uri(uriData.ApiUri));
-builder.Services.AddHttpClient<IShowService, ApiShowService>(opt => opt.BaseAddress=new Uri(uriData.ApiUri));
+builder.Services.AddHttpClient<IGenreService, ApiGenreService>(opt => opt.BaseAddress = new Uri(uriData.ApiUri));
+builder.Services.AddHttpClient<IShowService, ApiShowService>(opt => opt.BaseAddress = new Uri(uriData.ApiUri));
 
 builder.Services.AddHttpClient<IFileService, ApiFileService>(opt =>
     opt.BaseAddress = new Uri($"{uriData.ApiUri}files"));

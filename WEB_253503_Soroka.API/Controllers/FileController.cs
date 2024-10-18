@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WEB_253503_Soroka.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/file")]
     [ApiController]
     public class FileController : ControllerBase
     {

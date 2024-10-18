@@ -78,17 +78,24 @@ public class ShowService : IShowService
 
     public async Task UpdateShowAsync(int id, Show show)
     {
-        throw new NotImplementedException();
+        // var showForUpdate = await _dbContext.Shows.FindAsync(show.Id);
+        _dbContext.Shows.Update(show);
+        await _dbContext.SaveChangesAsync();
     }
 
     public async Task DeleteShowAsync(int id)
     {
-        throw new NotImplementedException();
+        var show = await _dbContext.Shows.FindAsync(id);
+        _dbContext.Shows.Remove(show!);
+        await _dbContext.SaveChangesAsync();
     }
 
-    public async Task CreateShowAsync(Show show)
+    public async Task<ResponseData<Show>> CreateShowAsync(Show show)
     {
-        throw new NotImplementedException();
+        await _dbContext.Shows.AddAsync(show);
+        await _dbContext.SaveChangesAsync();
+
+        return ResponseData<Show>.Success(show);
     }
 
     public async Task<ResponseData<string>> SaveImageAsync(int id, IFormFile formFile)
