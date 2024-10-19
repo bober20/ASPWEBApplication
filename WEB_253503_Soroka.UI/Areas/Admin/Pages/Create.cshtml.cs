@@ -25,10 +25,6 @@ namespace WEB_253503_Soroka.UI.Areas.Admin.Pages
             {
                 Genres = response.Data;
             }
-            else
-            {
-                Genres = new List<Genre>();
-            }
             
             return Page();
         }
@@ -43,16 +39,24 @@ namespace WEB_253503_Soroka.UI.Areas.Admin.Pages
         public IFormFile? ImageFile { get; set; }
         
         [BindProperty]
-        public int ChosenGenreId { get; set; }
+        public int ChosenGenreId { get; set; } = default!;
         
         public async Task<IActionResult> OnPostAsync()
         {
+            var response = await _genreService.GetGenreListAsync();
+            var genres = new List<Genre>();
+
+            if (response.Successfull)
+            {
+                genres = response.Data;
+            }
+            
             if (!ModelState.IsValid)
             {
                 return Page();
             }
 
-            Show.Genre = Genres.Find(genre => genre.Id == ChosenGenreId);
+            Show.Genre = genres.Find(genre => genre.Id == ChosenGenreId);
 
             await _showService.CreateShowAsync(Show, ImageFile);
 

@@ -24,13 +24,6 @@ namespace WEB_253503_Soroka.API.Controllers
             _context = context;
             _service = service;
         }
-
-        // GET: api/Shows
-        // [HttpGet]
-        // public async Task<ActionResult<IEnumerable<Show>>> GetShows()
-        // {
-        //     return await _context.Shows.ToListAsync();
-        // }
         
         [HttpGet]
         public async Task<ActionResult<ResponseData<ListModel<Show>>>> GetShows()
@@ -74,17 +67,6 @@ namespace WEB_253503_Soroka.API.Controllers
         {
             return Ok(await _service.CreateShowAsync(show));
         }
-
-        // POST: api/Shows
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        // [HttpPost]
-        // public async Task<ActionResult<Show>> PostShow(Show show)
-        // {
-        //     _context.Shows.Add(show);
-        //     await _context.SaveChangesAsync();
-        //
-        //     return CreatedAtAction("GetShow", new { id = show.Id }, show);
-        // }
 
         // DELETE: api/Shows/5
         [HttpDelete("{id}")]

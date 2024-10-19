@@ -92,6 +92,13 @@ public class ShowService : IShowService
 
     public async Task<ResponseData<Show>> CreateShowAsync(Show show)
     {
+        // Ensure the Genre is attached or retrieved from the database
+        var existingGenre = await _dbContext.Genres.FindAsync(show.Genre!.Id);
+        if (existingGenre != null)
+        {
+            show.Genre = existingGenre;
+        }
+
         await _dbContext.Shows.AddAsync(show);
         await _dbContext.SaveChangesAsync();
 

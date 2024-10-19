@@ -126,6 +126,10 @@ public class ApiShowService : IShowService
             var newFileName = await _fileService.SaveFileAsync(formFile);
             show.Image = newFileName;
         }
+        else
+        {
+            show.Image = (await GetShowByIdAsync(id)).Data!.Image;
+        }
 
         var response = await _httpClient.PutAsJsonAsync(uri, show);
 
