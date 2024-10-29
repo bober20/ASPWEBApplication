@@ -1,15 +1,18 @@
 using System.Text;
 using System.Net.Http.Headers;
+using WEB_253503_Soroka.UI.Services.Authentication;
 
 namespace WEB_253503_Soroka.UI.ApiServices.FileServices;
 
 public class ApiFileService : IFileService
 {
     private readonly HttpClient _httpClient;
+    private ITokenAccessor _tokenAccessor;
 
-    public ApiFileService(HttpClient httpClient)
+    public ApiFileService(HttpClient httpClient, ITokenAccessor tokenAccessor)
     {
         _httpClient = httpClient;
+        _tokenAccessor = tokenAccessor;
     }
     
     public async Task<string> SaveFileAsync(IFormFile formFile)
@@ -23,6 +26,8 @@ public class ApiFileService : IFileService
         streamContent.Headers.ContentType = new MediaTypeHeaderValue(formFile.ContentType);
 
         content.Add(streamContent, "file", newName);
+        
+        await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
 
         var response = await _httpClient.PostAsync(urlString, content);
         if (response.IsSuccessStatusCode)
@@ -35,6 +40,7 @@ public class ApiFileService : IFileService
 
     public async Task DeleteFileAsync(string fileName)
     {
+        await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
         var response = await _httpClient.DeleteAsync(fileName);
     }
 }

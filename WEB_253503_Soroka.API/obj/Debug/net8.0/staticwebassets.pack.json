@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/Images/0h2rk425.webp"
     },
     {
+      "Id": "/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.API/wwwroot/Images/4rvcmc5l.png",
+      "PackagePath": "staticwebassets/Images/4rvcmc5l.png"
+    },
+    {
       "Id": "/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.API/wwwroot/Images/default-profile-picture.png",
       "PackagePath": "staticwebassets/Images/default-profile-picture.png"
     },
@@ -29,6 +33,10 @@
       "PackagePath": "staticwebassets/Images/pog5cvsw.png"
     },
     {
+      "Id": "/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.API/wwwroot/Images/qd1mu5kn.png",
+      "PackagePath": "staticwebassets/Images/qd1mu5kn.png"
+    },
+    {
       "Id": "/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.API/wwwroot/Images/rvpwklzf.webp",
       "PackagePath": "staticwebassets/Images/rvpwklzf.webp"
     },
@@ -43,6 +51,10 @@
     {
       "Id": "/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.API/wwwroot/Images/the_knick.webp",
       "PackagePath": "staticwebassets/Images/the_knick.webp"
+    },
+    {
+      "Id": "/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.API/wwwroot/Images/zhj0onkj.png",
+      "PackagePath": "staticwebassets/Images/zhj0onkj.png"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.WEB_253503_Soroka.API.Microsoft.AspNetCore.StaticWebAssets.props",

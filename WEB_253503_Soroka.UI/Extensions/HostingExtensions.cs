@@ -1,3 +1,4 @@
+using WEB_253503_Soroka.UI.HelperClasses;
 using WEB_253503_Soroka.UI.Services.GenreService;
 using WEB_253503_Soroka.UI.Services.ShowService;
 
@@ -9,5 +10,8 @@ public static class HostingExtensions
     {
         // builder.Services.AddScoped<IGenreService, MemoryGenreService>();
         // builder.Services.AddScoped<IShowService, MemoryShowService>();
+        
+        builder.Services
+            .Configure<KeycloakData>(builder.Configuration.GetSection("Keycloak"));
     }
 }

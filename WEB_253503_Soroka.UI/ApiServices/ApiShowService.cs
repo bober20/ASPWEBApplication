@@ -4,6 +4,7 @@ using WEB_253503_Soroka.Domain.Entities;
 using WEB_253503_Soroka.Domain.Models;
 using WEB_253503_Soroka.UI.Services.ShowService;
 using WEB_253503_Soroka.UI.ApiServices.FileServices;
+using WEB_253503_Soroka.UI.Services.Authentication;
 
 namespace WEB_253503_Soroka.UI.ApiServices;
 
@@ -14,9 +15,10 @@ public class ApiShowService : IShowService
     private string _pageSize;
     private JsonSerializerOptions _serializerOptions;
     private IFileService _fileService;
+    private ITokenAccessor _tokenAccessor;
 
     public ApiShowService(HttpClient httpClient, IConfiguration configuration, ILogger<ApiShowService> logger,
-        IFileService fileService)
+        IFileService fileService, ITokenAccessor tokenAccessor)
     {
         _httpClient = httpClient;
         _pageSize = configuration.GetSection("ItemsPerPage").Value;
@@ -26,11 +28,14 @@ public class ApiShowService : IShowService
         };
         _logger = logger;
         _fileService = fileService;
+        _tokenAccessor = tokenAccessor;
     }
     
     public async Task<ResponseData<ListModel<Show>>> GetShowListAsync()
     {
         var urlString = new StringBuilder($"{_httpClient.BaseAddress.AbsoluteUri}shows");
+
+        await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
 
         var response = await _httpClient.GetAsync(new Uri(urlString.ToString()));
 
@@ -71,6 +76,8 @@ public class ApiShowService : IShowService
         {
             urlString.Append(QueryString.Create("pageSize", _pageSize));
         }
+        
+        await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
 
         var response = await _httpClient.GetAsync(new Uri(urlString.ToString()));
 
@@ -95,6 +102,8 @@ public class ApiShowService : IShowService
     public async Task<ResponseData<Show>> GetShowByIdAsync(int id)
     {
         var urlString = new StringBuilder($"{_httpClient.BaseAddress.AbsoluteUri}shows/{id}");
+        
+        await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
 
         var response = await _httpClient.GetAsync(new Uri(urlString.ToString()));
 
@@ -119,6 +128,8 @@ public class ApiShowService : IShowService
     public async Task UpdateShowAsync(int id, Show show, IFormFile? formFile)
     {
         var uri = new Uri($"{_httpClient.BaseAddress.AbsoluteUri}shows/{id}");
+        
+        await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
 
         if (formFile is not null)
         {
@@ -142,6 +153,8 @@ public class ApiShowService : IShowService
     public async Task DeleteShowAsync(int id)
     {
         var uri = new Uri($"{_httpClient.BaseAddress.AbsoluteUri}shows/{id}");
+        
+        await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
 
         var response = await _httpClient.DeleteAsync(uri);
 
@@ -163,6 +176,8 @@ public class ApiShowService : IShowService
         }
         
         var uri = new Uri($"{_httpClient.BaseAddress.AbsoluteUri}shows");
+        
+        await _tokenAccessor.SetAuthorizationHeaderAsync(_httpClient);
 
         var response = await _httpClient.PostAsJsonAsync(uri, show, _serializerOptions);
 

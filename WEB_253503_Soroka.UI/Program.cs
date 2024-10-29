@@ -1,9 +1,14 @@
-using WEB_253503_Soroka.API.Data;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.OpenIdConnect;
+using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 using WEB_253503_Soroka.UI.Services.GenreService;
 using WEB_253503_Soroka.UI.Services.ShowService;
 using WEB_253503_Soroka.UI.ApiServices;
 using WEB_253503_Soroka.UI.ApiServices.FileServices;
 using WEB_253503_Soroka.UI;
+using WEB_253503_Soroka.UI.HelperClasses;
+using WEB_253503_Soroka.UI.Services.Authentication;
+using WEB_253503_Soroka.UI.Services.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,10 +19,37 @@ UriData uriData = builder.Configuration.GetRequiredSection("UriData").Get<UriDat
 builder.Services.AddHttpClient<IGenreService, ApiGenreService>(opt => opt.BaseAddress = new Uri(uriData.ApiUri));
 builder.Services.AddHttpClient<IShowService, ApiShowService>(opt => opt.BaseAddress = new Uri(uriData.ApiUri));
 
-builder.Services.AddHttpClient<IFileService, ApiFileService>(opt =>
+builder.Services.AddHttpClient<IFileService, ApiFileService>(opt => 
     opt.BaseAddress = new Uri($"{uriData.ApiUri}file"));
 
+builder.Services.AddScoped<ITokenAccessor, KeycloakTokenAccessor>();
+builder.Services.AddHttpClient<IAuthService, KeycloakAuthService>(opt => opt.BaseAddress = new Uri(uriData.ApiUri));
+
 builder.Services.AddRazorPages();
+builder.Services.AddHttpContextAccessor();
+
+// Добавляем поддержку IOptions<KeycloakData>
+builder.Services.Configure<KeycloakData>(builder.Configuration.GetSection("Keycloak"));
+
+var keycloakData = builder.Configuration.GetSection("Keycloak").Get<KeycloakData>();
+builder.Services.AddAuthentication(options =>
+    {
+        options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+        options.DefaultChallengeScheme = OpenIdConnectDefaults.AuthenticationScheme;
+    })
+    .AddCookie()
+    .AddJwtBearer()
+    .AddOpenIdConnect(options =>
+    {
+        options.Authority = $"{keycloakData.Host}/auth/realms/{keycloakData.Realm}";
+        options.ClientId = keycloakData.ClientId;
+        options.ClientSecret = keycloakData.ClientSecret;
+        options.ResponseType = OpenIdConnectResponseType.Code;
+        options.Scope.Add("openid"); // Customize scopes as needed
+        options.SaveTokens = true;
+        options.RequireHttpsMetadata = false; // позволяет обращаться локальному Keycloak по http
+        options.MetadataAddress = $"{keycloakData.Host}/realms/{keycloakData.Realm}/.well-known/openid-configuration"; }
+        );
 
 var app = builder.Build();
 
@@ -40,23 +72,7 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
+
 app.MapRazorPages();
-
-// app.MapAreaControllerRoute(
-//     name: "AreaAdmin",
-//     areaName: "Admin",
-//     pattern: "Admin/{page=Index}");
-
-// app.MapControllerRoute(
-//     name: "Admin",
-//     pattern: "{area:exists}/{controller=Admin}/{action=Index}");
-
-// app.UseEndpoints(endpoints =>
-// {
-//     endpoints.MapRazorPages();
-//     endpoints.MapControllerRoute(
-//         name: "areas",
-//         pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
-// });
 
 app.Run();

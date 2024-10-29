@@ -78,6 +78,12 @@ public class ShowService : IShowService
 
     public async Task UpdateShowAsync(int id, Show show)
     {
+        var existingGenre = await _dbContext.Genres.FindAsync(show.Genre!.Id);
+        if (existingGenre != null)
+        {
+            show.Genre = existingGenre;
+        }
+        
         // var showForUpdate = await _dbContext.Shows.FindAsync(show.Id);
         _dbContext.Shows.Update(show);
         await _dbContext.SaveChangesAsync();

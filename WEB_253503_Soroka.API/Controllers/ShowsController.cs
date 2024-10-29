@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -42,6 +43,7 @@ namespace WEB_253503_Soroka.API.Controllers
 
         // GET: api/Shows/5
         [HttpGet("{id:int}")]
+        [Authorize(Policy = "admin")]
         public async Task<ActionResult<Show>> GetShow(int id)
         {
             return Ok(await _service.GetShowByIdAsync(id));
@@ -50,6 +52,7 @@ namespace WEB_253503_Soroka.API.Controllers
         // PUT: api/Shows/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
+        [Authorize(Policy = "admin")]
         public async Task<IActionResult> PutShow(int id, Show show)
         {
             if (id != show.Id)
@@ -63,6 +66,7 @@ namespace WEB_253503_Soroka.API.Controllers
         }
 
         [HttpPost]
+        [Authorize(Policy = "admin")]
         public async Task<IActionResult> PostShow(Show show)
         {
             return Ok(await _service.CreateShowAsync(show));
@@ -70,6 +74,7 @@ namespace WEB_253503_Soroka.API.Controllers
 
         // DELETE: api/Shows/5
         [HttpDelete("{id}")]
+        [Authorize(Policy = "admin")]
         public async Task<IActionResult> DeleteShow(int id)
         {
             var response = await _service.GetShowByIdAsync(id);
