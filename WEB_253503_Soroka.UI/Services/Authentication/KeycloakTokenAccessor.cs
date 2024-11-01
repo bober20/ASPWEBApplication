@@ -23,13 +23,11 @@ public class KeycloakTokenAccessor : ITokenAccessor
 
     public async Task<string> GetAccessTokenAsync()
     {
-        // Если пользователь вошел в систему, получить его токен
         if (_httpContext!.User.Identity!.IsAuthenticated)
         {
             return await _httpContext.GetTokenAsync("access_token");
         }
-        // Если пользователь не входил в систему, получить токен клиента
-        // Keycloak token endpoint
+        
         var requestUri = $"{_keycloakData.Host}/realms/{_keycloakData.Realm}/protocol/openid-connect/token";
 
         HttpContent content = new FormUrlEncodedContent([
@@ -39,13 +37,11 @@ public class KeycloakTokenAccessor : ITokenAccessor
             ]
         );
         
-        // send request
         var response = await _httpClient.PostAsync(requestUri, content);
         if (!response.IsSuccessStatusCode)
         {
             throw new HttpRequestException(response.StatusCode.ToString());
         }
-        // extract access token from response
         var jsonString = await response.Content.ReadAsStringAsync();
         return JsonObject.Parse(jsonString)!["access_token"]!.GetValue<string>();
     }

@@ -43,50 +43,39 @@
     </ul>
 </div><!-- выбор категории -->
 
-<div class="container">
-    <div class="row">
-        @foreach (var show in Model.Items)
-        {
-            <div class="col-md-4 mb-4" style="width: 300px; margin: 60px;">
-                <!-- 4 колонки = 12/3 -->
-                <div class="card h-100">
-                    <img class="card-img-top" src="@show.Image" alt="Card image">
-                    <div class="card-body">
-                        <h5 class="card-title">@show.Name</h5>
-                        <p class="card-text">@show.Description</p>
-                        <a class="btn btn-primary" asp-controller="Cart" asp-action="Add" asp-route-id=@show.Id
-                           asp-route-returnUrl=@returnUrl>
-                            Add to cart
-                        </a>
-                    </div>
-                </div>
-            </div>
-        }
-    </div>
+@* <partial name="Components/Show/_ShowListPartial" model="Model" /> *@
+<div id="partial_container">
+    @await Html.PartialAsync("Components/Show/_ShowListPartial", Model)
 </div>
 
+@section Scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/js/site.js"></script>
+}
 
-<nav aria-label="Page navigation example">
-    <ul class="pagination">
-        @{
-            int prev = Model.CurrentPage == 1 ? 1 : Model.CurrentPage - 1;
-            int next = Model.CurrentPage == Model.TotalPages ? Model.TotalPages : Model.CurrentPage + 1;
-        }
-        <li class="page-item">
-            <a asp-route-pageNo=@prev asp-route-genre=@ViewData["currentGenreNormalizedName"] class="page-link">Previous</a>
-        </li>
+@* <nav aria-label="Page navigation example"> *@
+@*     <ul class="pagination"> *@
+@*         @{ *@
+@*             int prev = Model.CurrentPage == 1 ? 1 : Model.CurrentPage - 1; *@
+@*             int next = Model.CurrentPage == Model.TotalPages ? Model.TotalPages : Model.CurrentPage + 1; *@
+@*         } *@
+@*         <li class="page-item"> *@
+@*             <a asp-route-pageNo=@prev asp-route-genre=@ViewData["currentGenreNormalizedName"] class="page-link">Previous</a> *@
+@*         </li> *@
+@* *@
+@*         @for (int i = 1; i <= Model.TotalPages; i++) *@
+@*         { *@
+@*             <li class="page-item"> *@
+@*                 <a asp-route-pageNo=@i asp-route-genre=@ViewData["currentGenreNormalizedName"] class="page-link @(i == Model.CurrentPage ? "active" : "")">@i</a> *@
+@*             </li> *@
+@*         } *@
+@*         <li class="page-item"> *@
+@*             <a asp-route-pageNo=@next asp-route-genre=@ViewData["currentGenreNormalizedName"] class="page-link">Next</a> *@
+@*         </li> *@
+@*     </ul> *@
+@* </nav> *@
 
-        @for (int i = 1; i <= Model.TotalPages; i++)
-        {
-            <li class="page-item">
-                <a asp-route-pageNo=@i asp-route-genre=@ViewData["currentGenreNormalizedName"] class="page-link @(i == Model.CurrentPage ? "active" : "")">@i</a>
-            </li>
-        }
-        <li class="page-item">
-            <a asp-route-pageNo=@next asp-route-genre=@ViewData["currentGenreNormalizedName"] class="page-link">Next</a>
-        </li>
-    </ul>
-</nav>
+
 
 
 @* <div class="container"> *@
@@ -108,3 +97,4 @@
 @*         } *@
 @*     </div> *@
 @* </div> *@
+

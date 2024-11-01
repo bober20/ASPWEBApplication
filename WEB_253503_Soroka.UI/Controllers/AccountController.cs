@@ -37,8 +37,7 @@ public class AccountController : Controller
     
         return View(user);
     }
-    //
-    //
+    
     public IActionResult Login()
     {
         return View(new LoginUserViewModel());

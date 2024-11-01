@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using WEB_253503_Soroka.Domain.Entities;
 using WEB_253503_Soroka.Domain.Models;
+using WEB_253503_Soroka.UI.Extensions;
 using WEB_253503_Soroka.UI.Services.GenreService;
 using WEB_253503_Soroka.UI.Services.ShowService;
 
@@ -38,6 +39,11 @@ public class ShowsController: Controller
         {
             ViewData["currentGenreNormalizedName"] = currentGenreNormalizedName;
             ViewData["currentGenre"] = genreResponse.Data!.Find(g => g.NormalizedName == genre)!.Name;
+        }
+        
+        if (Request.IsAjaxRequest())
+        {
+            return PartialView("~/Views/Shared/Components/Show/_ShowListPartial.cshtml", showResponse.Data);
         }
         
         return View(showResponse.Data);
