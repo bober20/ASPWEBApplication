@@ -9,9 +9,11 @@
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5276a5e3_002D126a_002D4ae2_002D8b24_002Dbad693e8a456/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="IndexReturnCorrectGenre" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::AC904704-BEAD-460B-9A20-D6F7A48A7259::net8.0::WEB_253503_Soroka.Tests.ShowsControllerTests.IndexReturnCorrectGenre&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::AC904704-BEAD-460B-9A20-D6F7A48A7259::net8.0::WEB_253503_Soroka.Tests.ShowsControllerTests.IndexReturnsCorrectModel&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::AC904704-BEAD-460B-9A20-D6F7A48A7259::net8.0::WEB_253503_Soroka.Tests.ShowsControllerTests.IndexReturnsNotFoundWhenGenreDoesNotExist&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::AC904704-BEAD-460B-9A20-D6F7A48A7259::net8.0::WEB_253503_Soroka.Tests.ShowsControllerTests.IndexReturnsAllGenres&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::AC904704-BEAD-460B-9A20-D6F7A48A7259::net8.0::WEB_253503_Soroka.Tests.ShowsControllerTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::AC904704-BEAD-460B-9A20-D6F7A48A7259::net8.0::WEB_253503_Soroka.Tests.ShowsServiceTests.ServiceReturnsFirstPageOfThreeItems&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::AC904704-BEAD-460B-9A20-D6F7A48A7259::net8.0::WEB_253503_Soroka.Tests.ShowsServiceTests.ServiceReturnsCorrectPage&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::AC904704-BEAD-460B-9A20-D6F7A48A7259::net8.0::WEB_253503_Soroka.Tests.ShowsServiceTests.ServiceReturnsCorrectFilteredData&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::AC904704-BEAD-460B-9A20-D6F7A48A7259::net8.0::WEB_253503_Soroka.Tests.ShowsServiceTests.ServiceReturnsCorrectItemsNumber&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::AC904704-BEAD-460B-9A20-D6F7A48A7259::net8.0::WEB_253503_Soroka.Tests.ShowsServiceTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

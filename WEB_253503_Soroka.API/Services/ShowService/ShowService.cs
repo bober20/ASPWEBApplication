@@ -15,10 +15,9 @@ public class ShowService : IShowService
 
     private AppDbContext _dbContext;
 
-    public ShowService(IGenreService genreService, AppDbContext dbContext)
+    public ShowService(AppDbContext dbContext)
     {
         _dbContext = dbContext;
-        _genres = genreService.GetGenreListAsync().Result.Data;
     }
 
     public async Task<ResponseData<ListModel<Show>>> GetShowListAsync()

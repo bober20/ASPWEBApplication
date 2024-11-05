@@ -29,26 +29,14 @@ public class ShowsControllerTests
     
     private ShowsController CreateController()
     {
-        return new ShowsController(_showService, _genreService);
+        var controller = new ShowsController(_showService, _genreService);
+        controller.ControllerContext.HttpContext = new DefaultHttpContext();
+        
+        return controller;
     }
 
     public ShowsControllerTests(ITestOutputHelper output)
     {
-        
-        // var inMemorySettings = new Dictionary<string, string>()
-        // {
-        //     { "ItemsPerPage", "3" },
-        //     { "UriData:ApiUri", "https://localhost:7002/api/" },
-        //     { "Keycloak:Host", "http://localhost:8080" },
-        //     { "Keycloak:Realm", "Soroka" },
-        //     { "Keycloak:ClientId", "SorokaUIClient" },
-        //     { "Keycloak:ClientSecret", "FLDmqReq9kxBzFoIr2cfpuJyXLG3GJjl" }
-        // };
-        //
-        // IConfiguration configuration = new ConfigurationBuilder()
-        //     .AddInMemoryCollection(inMemorySettings)
-        //     .Build();
-        
         services.AddSingleton<IConfiguration>(_configuration);
         services.AddScoped<IGenreService, MemoryGenreService>();
         services.AddScoped<IShowService, MemoryShowService>();
@@ -78,8 +66,6 @@ public class ShowsControllerTests
     public async Task IndexReturnsAllGenres()
     {
         var controller = CreateController();
-        
-        controller.ControllerContext.HttpContext = new DefaultHttpContext();
 
         var result = await controller.Index("");
         var okResult = Assert.IsType<ViewResult>(result);
@@ -92,8 +78,6 @@ public class ShowsControllerTests
     public async Task IndexReturnsCorrectModel()
     {
         var controller = CreateController();
-        
-        controller.ControllerContext.HttpContext = new DefaultHttpContext();
 
         var result = await controller.Index(null);
 
@@ -111,11 +95,22 @@ public class ShowsControllerTests
     public async Task IndexReturnsNotFoundWhenGenreDoesNotExist()
     {
         var controller = CreateController();
-        
-        controller.ControllerContext.HttpContext = new DefaultHttpContext();
 
         var result = await controller.Index("nonexistantgenre");
 
         Assert.IsType<NotFoundObjectResult>(result);
+    }
+    
+    [Fact]
+    public async Task IndexReturnsNotFoundWhenShowsDontNotExist()
+    {
+        var controller = CreateController();
+
+        var result = await controller.Index("adventure");
+        var okResult = Assert.IsType<ViewResult>(result);
+        
+        var model = okResult.Model as ListModel<Show>;
+        
+        Assert.Equal(0, model.Items.Count);
     }
 }

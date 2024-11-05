@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WEB_253503_Soroka.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+276a7cdf6cb484e4c67db57a0d64ac4eee8cb283")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34e42a8d07ce581eb4eaa14f659d63d0d5b1c588")]
 [assembly: System.Reflection.AssemblyProductAttribute("WEB_253503_Soroka.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WEB_253503_Soroka.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
