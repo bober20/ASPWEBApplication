@@ -43,7 +43,6 @@ namespace WEB_253503_Soroka.API.Controllers
 
         // GET: api/Shows/5
         [HttpGet("{id:int}")]
-        [Authorize(Policy = "admin")]
         public async Task<ActionResult<Show>> GetShow(int id)
         {
             return Ok(await _service.GetShowByIdAsync(id));

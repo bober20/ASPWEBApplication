@@ -1,22 +1,22 @@
 using Microsoft.AspNetCore.Mvc;
+using WEB_253503_Soroka.Domain.Models;
+using WEB_253503_Soroka.UI.Models;
+using WEB_253503_Soroka.UI.Extensions;
+
 namespace WEB_253503_Soroka.UI.Components;
 
-public class Cart : ViewComponent
+public class CartViewComponent : ViewComponent
 {
-    public IViewComponentResult Invoke()
-    {
-        var cartInfo = new
-        {
-            TotalPrice = 0.0,
-            ItemsCount = 0
-        };
+    private readonly Cart _cart;
 
-        return View(cartInfo);
+    public CartViewComponent(Cart cart)
+    {
+        _cart = cart;
     }
 
-    public IViewComponentResult Index()
+    public IViewComponentResult Invoke()
     {
-        return View();
+        return View(_cart);
     }
 }
 

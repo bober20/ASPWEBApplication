@@ -16,10 +16,8 @@ public class HomeController : Controller
         new ListDemo { Id = 2, Name = "Item3" }
     };
 
-    public IActionResult Index()
+    public IActionResult Index(SessionCart sessionCart)
     {
-        
-        
         LabName = "Лабораторная работа 2";
 
         return View(ListDemos);

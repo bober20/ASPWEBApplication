@@ -4,7 +4,7 @@
 </a> *@
 
 @{
-    var isAuthenticated = User.Identity.IsAuthenticated;
+    var isAuthenticated = User.Identity!.IsAuthenticated;
     var name = User.Claims
         .FirstOrDefault(c => c.Type.Equals("preferred_username",
             StringComparison.OrdinalIgnoreCase))?
@@ -13,17 +13,6 @@
         .FirstOrDefault(c => c.Type.Equals("avatar", 
             StringComparison.OrdinalIgnoreCase))?
         .Value;
-    
-    foreach (var claim in User.Claims)
-    {
-        var a = claim.Type;
-        var b = claim.Value;
-        
-        Console.WriteLine($"Type: {claim.Type}, Value: {claim.Value}");
-    }
-
-    var c = 0;
-
 }
 
 @if (isAuthenticated)

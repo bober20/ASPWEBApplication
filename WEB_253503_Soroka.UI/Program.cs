@@ -1,12 +1,14 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.IdentityModel.Protocols.OpenIdConnect;
+using WEB_253503_Soroka.Domain.Models;
 using WEB_253503_Soroka.UI.Services.GenreService;
 using WEB_253503_Soroka.UI.Services.ShowService;
 using WEB_253503_Soroka.UI.ApiServices;
 using WEB_253503_Soroka.UI.ApiServices.FileServices;
 using WEB_253503_Soroka.UI;
 using WEB_253503_Soroka.UI.HelperClasses;
+using WEB_253503_Soroka.UI.Models;
 using WEB_253503_Soroka.UI.Services.Authentication;
 using WEB_253503_Soroka.UI.Services.Authorization;
 
@@ -25,8 +27,14 @@ builder.Services.AddHttpClient<IFileService, ApiFileService>(opt =>
 builder.Services.AddScoped<ITokenAccessor, KeycloakTokenAccessor>();
 builder.Services.AddHttpClient<IAuthService, KeycloakAuthService>(opt => opt.BaseAddress = new Uri(uriData.ApiUri));
 
+builder.Services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
 builder.Services.AddRazorPages();
 builder.Services.AddHttpContextAccessor();
+
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession();
 
 // Добавляем поддержку IOptions<KeycloakData>
 builder.Services.Configure<KeycloakData>(builder.Configuration.GetSection("Keycloak"));
@@ -66,13 +74,14 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthentication();    // аутентификация
+app.UseSession();
+
+app.UseAuthentication();   
 app.UseAuthorization(); 
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
 
 app.MapRazorPages();
 

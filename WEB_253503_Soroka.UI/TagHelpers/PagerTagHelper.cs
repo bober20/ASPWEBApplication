@@ -73,8 +73,6 @@ public class PagerTagHelper : TagHelper
         {
             throw new InvalidOperationException("HttpContext is null.");
         }
-
-        string? url = null;
         
         var values = new RouteValueDictionary
         {
@@ -86,7 +84,7 @@ public class PagerTagHelper : TagHelper
             values["genre"] = Genre;
         }
 
-        url = _linkGenerator.GetPathByAction(
+        string? url = _linkGenerator.GetPathByAction(
             action: "Index",
             controller: "Shows",
             values: values,

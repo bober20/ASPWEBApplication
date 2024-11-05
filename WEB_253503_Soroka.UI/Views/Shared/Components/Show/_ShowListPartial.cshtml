@@ -12,9 +12,14 @@
                         <div class="card-body">
                             <h5 class="card-title">@show.Name</h5>
                             <p class="card-text">@show.Description</p>
-                            <a class="btn btn-primary" asp-controller="Cart" asp-action="Add" asp-route-id=@show.Id>
-                                Add to cart
-                            </a>
+                            <p class="card-text">Price: @show.Price</p>
+                            <form asp-controller="Cart" asp-action="Add" asp-route-id="@show.Id">
+                                <input type="hidden" name="returnUrl" value="@(ViewContext.HttpContext.Request.Path + ViewContext.HttpContext.Request.QueryString.ToUriComponent())"/>
+                                <button type="submit" class="btn btn-primary">Add to cart</button>
+                            </form>
+                            @* <a class="btn btn-primary" asp-controller="Cart" asp-action="Add" asp-route-id=@show.Id> *@
+                            @*     Add to cart *@
+                            @* </a> *@
                         </div>
                     </div>
                 </div>

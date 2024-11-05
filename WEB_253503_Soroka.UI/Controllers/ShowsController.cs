@@ -18,6 +18,7 @@ public class ShowsController: Controller
         _genreService = genreService;
     }
 
+    [Route("catalog/{genre?}")]
     public async Task<IActionResult> Index(string? genre, int pageNo = 1)
     {
         var genreResponse = await _genreService.GetGenreListAsync();
@@ -38,6 +39,10 @@ public class ShowsController: Controller
         else
         {
             ViewData["currentGenreNormalizedName"] = currentGenreNormalizedName;
+            if (genreResponse.Data!.Find(g => g.NormalizedName == genre) is null)
+            {
+                return NotFound("No genre with this name.");
+            }
             ViewData["currentGenre"] = genreResponse.Data!.Find(g => g.NormalizedName == genre)!.Name;
         }
         
