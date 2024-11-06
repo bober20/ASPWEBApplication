@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.IdentityModel.Protocols.OpenIdConnect;
+using Serilog;
 using WEB_253503_Soroka.Domain.Models;
 using WEB_253503_Soroka.UI.Services.GenreService;
 using WEB_253503_Soroka.UI.Services.ShowService;
@@ -8,11 +9,26 @@ using WEB_253503_Soroka.UI.ApiServices;
 using WEB_253503_Soroka.UI.ApiServices.FileServices;
 using WEB_253503_Soroka.UI;
 using WEB_253503_Soroka.UI.HelperClasses;
+using WEB_253503_Soroka.UI.Middleware;
 using WEB_253503_Soroka.UI.Models;
 using WEB_253503_Soroka.UI.Services.Authentication;
 using WEB_253503_Soroka.UI.Services.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(builder.Configuration)
+    .CreateLogger();
+
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
+builder.Logging.AddSerilog();
+
+builder.Host.UseSerilog();
+
+Log.Logger.Information("[Started logging...]");
+
 
 builder.Services.AddControllersWithViews();
 // builder.RegisterCustomServices();
@@ -68,6 +84,9 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+app.UseMiddleware<LoggerMiddleware>();
+app.UseSerilogRequestLogging();
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

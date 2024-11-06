@@ -1,5 +1,6 @@
 using System.Text;
 using System.Net.Http.Headers;
+using WEB_253503_Soroka.UI.Middleware;
 using WEB_253503_Soroka.UI.Services.Authentication;
 
 namespace WEB_253503_Soroka.UI.ApiServices.FileServices;

@@ -1,0 +1,890 @@
+2024-11-07 00:24:53.667 +03:00 [INF] [Started logging...]
+2024-11-07 00:24:53.786 +03:00 [INF] User profile is available. Using '/Users/dara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-07 00:24:54.046 +03:00 [INF] Now listening on: https://localhost:7001
+2024-11-07 00:24:54.046 +03:00 [INF] Now listening on: https://localhost:5001
+2024-11-07 00:24:54.048 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-07 00:24:54.048 +03:00 [INF] Hosting environment: Development
+2024-11-07 00:24:54.048 +03:00 [INF] Content root path: /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI
+2024-11-07 00:24:54.319 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-11-07 00:24:54.323 +03:00 [INF] Request: GET /
+2024-11-07 00:24:54.362 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:24:54.381 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(WEB_253503_Soroka.UI.Models.SessionCart) on controller WEB_253503_Soroka.UI.Controllers.HomeController (WEB_253503_Soroka.UI).
+2024-11-07 00:24:54.399 +03:00 [INF] Executing action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) - Validation state: "Valid"
+2024-11-07 00:24:54.403 +03:00 [INF] Executed action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.45ms.
+2024-11-07 00:24:54.414 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-07 00:24:54.548 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/js/site.js?v=ycfineytohQ__UoOe-lX5klOcgL34S5DlYLnBBAOjNU - null null
+2024-11-07 00:24:54.549 +03:00 [INF] Request: GET /js/site.js
+2024-11-07 00:24:54.550 +03:00 [INF] Executed ViewResult - view Index executed in 136.5694ms.
+2024-11-07 00:24:54.551 +03:00 [INF] The file /js/site.js was not modified
+2024-11-07 00:24:54.553 +03:00 [INF] HTTP GET /js/site.js responded 304 in 2.6361 ms
+2024-11-07 00:24:54.554 +03:00 [ERR] Bad response: GET /js/site.js responded with 304
+2024-11-07 00:24:54.554 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/js/site.js?v=ycfineytohQ__UoOe-lX5klOcgL34S5DlYLnBBAOjNU - 304 null text/javascript 6.5323ms
+2024-11-07 00:24:54.556 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) in 174.8287ms
+2024-11-07 00:24:54.557 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:24:54.561 +03:00 [INF] HTTP GET / responded 200 in 237.2863 ms
+2024-11-07 00:24:54.561 +03:00 [INF] Response: GET / responded with 200
+2024-11-07 00:24:54.571 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 null text/html; charset=utf-8 252.5716ms
+2024-11-07 00:43:55.280 +03:00 [INF] Application is shutting down...
+2024-11-07 00:43:57.272 +03:00 [INF] [Started logging...]
+2024-11-07 00:43:57.365 +03:00 [INF] User profile is available. Using '/Users/dara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-07 00:43:57.606 +03:00 [INF] Now listening on: https://localhost:7001
+2024-11-07 00:43:57.606 +03:00 [INF] Now listening on: https://localhost:5001
+2024-11-07 00:43:57.607 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-07 00:43:57.608 +03:00 [INF] Hosting environment: Development
+2024-11-07 00:43:57.608 +03:00 [INF] Content root path: /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI
+2024-11-07 00:43:57.912 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-11-07 00:43:57.916 +03:00 [INF] Request: GET /
+2024-11-07 00:43:57.950 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:43:57.970 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(WEB_253503_Soroka.UI.Models.SessionCart) on controller WEB_253503_Soroka.UI.Controllers.HomeController (WEB_253503_Soroka.UI).
+2024-11-07 00:43:57.986 +03:00 [INF] Executing action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) - Validation state: "Valid"
+2024-11-07 00:43:57.990 +03:00 [INF] Executed action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4378ms.
+2024-11-07 00:43:58.000 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-07 00:43:58.124 +03:00 [INF] Executed ViewResult - view Index executed in 127.9264ms.
+2024-11-07 00:43:58.126 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) in 156.4893ms
+2024-11-07 00:43:58.127 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:43:58.135 +03:00 [INF] HTTP GET / responded 200 in 214.2358 ms
+2024-11-07 00:43:58.135 +03:00 [INF] Response: GET / responded with 200
+2024-11-07 00:43:58.145 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 null text/html; charset=utf-8 233.0574ms
+2024-11-07 00:44:26.332 +03:00 [INF] Application is shutting down...
+2024-11-07 00:44:31.468 +03:00 [INF] [Started logging...]
+2024-11-07 00:44:31.566 +03:00 [INF] User profile is available. Using '/Users/dara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-07 00:44:31.833 +03:00 [INF] Now listening on: https://localhost:7001
+2024-11-07 00:44:31.833 +03:00 [INF] Now listening on: https://localhost:5001
+2024-11-07 00:44:31.834 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-07 00:44:31.835 +03:00 [INF] Hosting environment: Development
+2024-11-07 00:44:31.835 +03:00 [INF] Content root path: /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI
+2024-11-07 00:44:32.093 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-11-07 00:44:32.096 +03:00 [INF] Request: GET /
+2024-11-07 00:44:32.128 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:44:32.146 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(WEB_253503_Soroka.UI.Models.SessionCart) on controller WEB_253503_Soroka.UI.Controllers.HomeController (WEB_253503_Soroka.UI).
+2024-11-07 00:44:32.163 +03:00 [INF] Executing action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) - Validation state: "Valid"
+2024-11-07 00:44:32.166 +03:00 [INF] Executed action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4416ms.
+2024-11-07 00:44:32.176 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-07 00:44:32.299 +03:00 [INF] Executed ViewResult - view Index executed in 127.3902ms.
+2024-11-07 00:44:32.302 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) in 155.4825ms
+2024-11-07 00:44:32.302 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:44:32.308 +03:00 [INF] HTTP GET / responded 200 in 208.1473 ms
+2024-11-07 00:44:32.310 +03:00 [INF] Response: GET / responded with 200ffffffff
+2024-11-07 00:44:32.316 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 null text/html; charset=utf-8 223.9762ms
+2024-11-07 00:44:40.088 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/catalog - null null
+2024-11-07 00:44:40.088 +03:00 [INF] Request: GET /catalog
+2024-11-07 00:44:40.091 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:44:40.096 +03:00 [INF] Route matched with {action = "Index", controller = "Shows", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, Int32) on controller WEB_253503_Soroka.UI.Controllers.ShowsController (WEB_253503_Soroka.UI).
+2024-11-07 00:44:40.103 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI) in 6.6299ms
+2024-11-07 00:44:40.104 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:44:40.104 +03:00 [ERR] HTTP GET /catalog responded 500 in 15.4376 ms
+System.InvalidOperationException: Unable to resolve service for type 'WEB_253503_Soroka.UI.Middleware.LoggerMiddleware' while attempting to activate 'WEB_253503_Soroka.UI.ApiServices.FileServices.ApiFileService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method41(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method40(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-11-07 00:44:40.113 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'WEB_253503_Soroka.UI.Middleware.LoggerMiddleware' while attempting to activate 'WEB_253503_Soroka.UI.ApiServices.FileServices.ApiFileService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method41(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method40(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at WEB_253503_Soroka.UI.Middleware.LoggerMiddleware.Invoke(HttpContext context) in /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/Middleware/LoggerMiddleware.cs:line 21
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-07 00:44:40.128 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/catalog - 500 null text/html; charset=utf-8 40.0207ms
+2024-11-07 00:44:40.130 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/js/site.js - null null
+2024-11-07 00:44:40.130 +03:00 [INF] Request: GET /js/site.js
+2024-11-07 00:44:40.133 +03:00 [INF] The file /js/site.js was not modified
+2024-11-07 00:44:40.134 +03:00 [INF] HTTP GET /js/site.js responded 304 in 3.2986 ms
+2024-11-07 00:44:40.134 +03:00 [ERR] Bad response: GET /js/site.js responded with 304
+2024-11-07 00:44:40.134 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/js/site.js - 304 null text/javascript 4.3048ms
+2024-11-07 00:45:44.818 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/catalog - null null
+2024-11-07 00:45:44.819 +03:00 [INF] Request: GET /catalog
+2024-11-07 00:45:44.824 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:45:44.825 +03:00 [INF] Route matched with {action = "Index", controller = "Shows", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, Int32) on controller WEB_253503_Soroka.UI.Controllers.ShowsController (WEB_253503_Soroka.UI).
+2024-11-07 00:45:44.827 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI) in 2.025ms
+2024-11-07 00:45:44.828 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:45:44.829 +03:00 [ERR] HTTP GET /catalog responded 500 in 10.2010 ms
+System.InvalidOperationException: Unable to resolve service for type 'WEB_253503_Soroka.UI.Middleware.LoggerMiddleware' while attempting to activate 'WEB_253503_Soroka.UI.ApiServices.FileServices.ApiFileService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method41(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method40(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-11-07 00:45:44.834 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'WEB_253503_Soroka.UI.Middleware.LoggerMiddleware' while attempting to activate 'WEB_253503_Soroka.UI.ApiServices.FileServices.ApiFileService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method41(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method40(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at WEB_253503_Soroka.UI.Middleware.LoggerMiddleware.Invoke(HttpContext context) in /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/Middleware/LoggerMiddleware.cs:line 21
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-07 00:45:44.845 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/catalog - 500 null text/html; charset=utf-8 27.6773ms
+2024-11-07 00:45:45.754 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/catalog - null null
+2024-11-07 00:45:45.754 +03:00 [INF] Request: GET /catalog
+2024-11-07 00:45:45.755 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:45:45.755 +03:00 [INF] Route matched with {action = "Index", controller = "Shows", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, Int32) on controller WEB_253503_Soroka.UI.Controllers.ShowsController (WEB_253503_Soroka.UI).
+2024-11-07 00:45:45.759 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI) in 3.7822ms
+2024-11-07 00:45:45.760 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:45:45.760 +03:00 [ERR] HTTP GET /catalog responded 500 in 5.7886 ms
+System.InvalidOperationException: Unable to resolve service for type 'WEB_253503_Soroka.UI.Middleware.LoggerMiddleware' while attempting to activate 'WEB_253503_Soroka.UI.ApiServices.FileServices.ApiFileService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method41(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method40(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-11-07 00:45:45.765 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'WEB_253503_Soroka.UI.Middleware.LoggerMiddleware' while attempting to activate 'WEB_253503_Soroka.UI.ApiServices.FileServices.ApiFileService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method41(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method40(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at WEB_253503_Soroka.UI.Middleware.LoggerMiddleware.Invoke(HttpContext context) in /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/Middleware/LoggerMiddleware.cs:line 21
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-07 00:45:45.781 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/catalog - 500 null text/html; charset=utf-8 27.577ms
+2024-11-07 00:45:46.641 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/catalog - null null
+2024-11-07 00:45:46.642 +03:00 [INF] Request: GET /catalog
+2024-11-07 00:45:46.642 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:45:46.642 +03:00 [INF] Route matched with {action = "Index", controller = "Shows", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, Int32) on controller WEB_253503_Soroka.UI.Controllers.ShowsController (WEB_253503_Soroka.UI).
+2024-11-07 00:45:46.643 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI) in 0.605ms
+2024-11-07 00:45:46.644 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:45:46.644 +03:00 [ERR] HTTP GET /catalog responded 500 in 2.3515 ms
+System.InvalidOperationException: Unable to resolve service for type 'WEB_253503_Soroka.UI.Middleware.LoggerMiddleware' while attempting to activate 'WEB_253503_Soroka.UI.ApiServices.FileServices.ApiFileService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method41(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method40(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-11-07 00:45:46.647 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'WEB_253503_Soroka.UI.Middleware.LoggerMiddleware' while attempting to activate 'WEB_253503_Soroka.UI.ApiServices.FileServices.ApiFileService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method41(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method40(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at WEB_253503_Soroka.UI.Middleware.LoggerMiddleware.Invoke(HttpContext context) in /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/Middleware/LoggerMiddleware.cs:line 21
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-07 00:45:46.663 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/catalog - 500 null text/html; charset=utf-8 22.1247ms
+2024-11-07 00:45:47.473 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/catalog - null null
+2024-11-07 00:45:47.474 +03:00 [INF] Request: GET /catalog
+2024-11-07 00:45:47.474 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:45:47.475 +03:00 [INF] Route matched with {action = "Index", controller = "Shows", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, Int32) on controller WEB_253503_Soroka.UI.Controllers.ShowsController (WEB_253503_Soroka.UI).
+2024-11-07 00:45:47.476 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI) in 0.6544ms
+2024-11-07 00:45:47.476 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:45:47.477 +03:00 [ERR] HTTP GET /catalog responded 500 in 3.0003 ms
+System.InvalidOperationException: Unable to resolve service for type 'WEB_253503_Soroka.UI.Middleware.LoggerMiddleware' while attempting to activate 'WEB_253503_Soroka.UI.ApiServices.FileServices.ApiFileService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method41(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method40(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-11-07 00:45:47.481 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'WEB_253503_Soroka.UI.Middleware.LoggerMiddleware' while attempting to activate 'WEB_253503_Soroka.UI.ApiServices.FileServices.ApiFileService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method41(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method40(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at WEB_253503_Soroka.UI.Middleware.LoggerMiddleware.Invoke(HttpContext context) in /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/Middleware/LoggerMiddleware.cs:line 21
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-07 00:45:47.490 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/catalog - 500 null text/html; charset=utf-8 16.571ms
+2024-11-07 00:45:48.361 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/catalog - null null
+2024-11-07 00:45:48.362 +03:00 [INF] Request: GET /catalog
+2024-11-07 00:45:48.362 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:45:48.363 +03:00 [INF] Route matched with {action = "Index", controller = "Shows", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, Int32) on controller WEB_253503_Soroka.UI.Controllers.ShowsController (WEB_253503_Soroka.UI).
+2024-11-07 00:45:48.363 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI) in 0.506ms
+2024-11-07 00:45:48.364 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:45:48.364 +03:00 [ERR] HTTP GET /catalog responded 500 in 2.3243 ms
+System.InvalidOperationException: Unable to resolve service for type 'WEB_253503_Soroka.UI.Middleware.LoggerMiddleware' while attempting to activate 'WEB_253503_Soroka.UI.ApiServices.FileServices.ApiFileService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method41(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method40(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-11-07 00:45:48.369 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'WEB_253503_Soroka.UI.Middleware.LoggerMiddleware' while attempting to activate 'WEB_253503_Soroka.UI.ApiServices.FileServices.ApiFileService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method41(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method40(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at WEB_253503_Soroka.UI.Middleware.LoggerMiddleware.Invoke(HttpContext context) in /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/Middleware/LoggerMiddleware.cs:line 21
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-07 00:45:48.381 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/catalog - 500 null text/html; charset=utf-8 19.8048ms
+2024-11-07 00:45:49.136 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/catalog - null null
+2024-11-07 00:45:49.137 +03:00 [INF] Request: GET /catalog
+2024-11-07 00:45:49.137 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:45:49.138 +03:00 [INF] Route matched with {action = "Index", controller = "Shows", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, Int32) on controller WEB_253503_Soroka.UI.Controllers.ShowsController (WEB_253503_Soroka.UI).
+2024-11-07 00:45:49.139 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI) in 0.7658ms
+2024-11-07 00:45:49.139 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:45:49.139 +03:00 [ERR] HTTP GET /catalog responded 500 in 2.7116 ms
+System.InvalidOperationException: Unable to resolve service for type 'WEB_253503_Soroka.UI.Middleware.LoggerMiddleware' while attempting to activate 'WEB_253503_Soroka.UI.ApiServices.FileServices.ApiFileService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method41(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method40(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-11-07 00:45:49.145 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'WEB_253503_Soroka.UI.Middleware.LoggerMiddleware' while attempting to activate 'WEB_253503_Soroka.UI.ApiServices.FileServices.ApiFileService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method41(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method40(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at WEB_253503_Soroka.UI.Middleware.LoggerMiddleware.Invoke(HttpContext context) in /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/Middleware/LoggerMiddleware.cs:line 21
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-07 00:45:49.159 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/catalog - 500 null text/html; charset=utf-8 23.0541ms
+2024-11-07 00:45:49.943 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/catalog - null null
+2024-11-07 00:45:49.943 +03:00 [INF] Request: GET /catalog
+2024-11-07 00:45:49.944 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:45:49.944 +03:00 [INF] Route matched with {action = "Index", controller = "Shows", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, Int32) on controller WEB_253503_Soroka.UI.Controllers.ShowsController (WEB_253503_Soroka.UI).
+2024-11-07 00:45:49.946 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI) in 0.9976ms
+2024-11-07 00:45:49.946 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:45:49.947 +03:00 [ERR] HTTP GET /catalog responded 500 in 3.6020 ms
+System.InvalidOperationException: Unable to resolve service for type 'WEB_253503_Soroka.UI.Middleware.LoggerMiddleware' while attempting to activate 'WEB_253503_Soroka.UI.ApiServices.FileServices.ApiFileService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method41(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method40(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-11-07 00:45:49.952 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'WEB_253503_Soroka.UI.Middleware.LoggerMiddleware' while attempting to activate 'WEB_253503_Soroka.UI.ApiServices.FileServices.ApiFileService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method42(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method41(Closure, IServiceProvider, Object[])
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method40(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at WEB_253503_Soroka.UI.Middleware.LoggerMiddleware.Invoke(HttpContext context) in /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/Middleware/LoggerMiddleware.cs:line 21
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-07 00:45:49.967 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/catalog - 500 null text/html; charset=utf-8 23.6564ms
+2024-11-07 00:46:07.939 +03:00 [INF] Application is shutting down...
+2024-11-07 00:46:15.380 +03:00 [INF] [Started logging...]
+2024-11-07 00:46:15.502 +03:00 [INF] User profile is available. Using '/Users/dara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-07 00:46:15.806 +03:00 [INF] Now listening on: https://localhost:7001
+2024-11-07 00:46:15.806 +03:00 [INF] Now listening on: https://localhost:5001
+2024-11-07 00:46:15.808 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-07 00:46:15.808 +03:00 [INF] Hosting environment: Development
+2024-11-07 00:46:15.808 +03:00 [INF] Content root path: /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI
+2024-11-07 00:46:16.029 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-11-07 00:46:16.033 +03:00 [INF] Request: GET /
+2024-11-07 00:46:16.065 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:46:16.080 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(WEB_253503_Soroka.UI.Models.SessionCart) on controller WEB_253503_Soroka.UI.Controllers.HomeController (WEB_253503_Soroka.UI).
+2024-11-07 00:46:16.095 +03:00 [INF] Executing action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) - Validation state: "Valid"
+2024-11-07 00:46:16.098 +03:00 [INF] Executed action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4691ms.
+2024-11-07 00:46:16.108 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-07 00:46:16.241 +03:00 [INF] Executed ViewResult - view Index executed in 136.8625ms.
+2024-11-07 00:46:16.248 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) in 167.5323ms
+2024-11-07 00:46:16.249 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:46:16.254 +03:00 [INF] HTTP GET / responded 200 in 219.4304 ms
+2024-11-07 00:46:16.255 +03:00 [INF] Response: GET / responded with 200
+2024-11-07 00:46:16.261 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 null text/html; charset=utf-8 232.5851ms
+2024-11-07 00:46:17.746 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/catalog - null null
+2024-11-07 00:46:17.746 +03:00 [INF] Request: GET /catalog
+2024-11-07 00:46:17.748 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:46:17.751 +03:00 [INF] Route matched with {action = "Index", controller = "Shows", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, Int32) on controller WEB_253503_Soroka.UI.Controllers.ShowsController (WEB_253503_Soroka.UI).
+2024-11-07 00:46:17.755 +03:00 [INF] Executing action method WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI) - Validation state: "Valid"
+2024-11-07 00:46:17.762 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/genres
+2024-11-07 00:46:17.764 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/genres
+2024-11-07 00:46:18.006 +03:00 [INF] Received HTTP response headers after 240.1979ms - 200
+2024-11-07 00:46:18.007 +03:00 [INF] End processing HTTP request after 247.0403ms - 200
+2024-11-07 00:46:18.048 +03:00 [INF] Start processing HTTP request POST http://localhost:8080/realms/Soroka/protocol/openid-connect/token
+2024-11-07 00:46:18.048 +03:00 [INF] Sending HTTP request POST http://localhost:8080/realms/Soroka/protocol/openid-connect/token
+2024-11-07 00:46:18.631 +03:00 [INF] Received HTTP response headers after 582.4978ms - 200
+2024-11-07 00:46:18.631 +03:00 [INF] End processing HTTP request after 583.1227ms - 200
+2024-11-07 00:46:18.636 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/shows/genres
+2024-11-07 00:46:18.636 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/shows/genres
+2024-11-07 00:46:18.922 +03:00 [INF] Received HTTP response headers after 285.6771ms - 200
+2024-11-07 00:46:18.922 +03:00 [INF] End processing HTTP request after 286.0978ms - 200
+2024-11-07 00:46:18.931 +03:00 [INF] Executed action method WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1176.0115ms.
+2024-11-07 00:46:18.933 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-07 00:46:18.951 +03:00 [INF] Executed ViewResult - view Index executed in 18.6073ms.
+2024-11-07 00:46:18.952 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI) in 1200.4905ms
+2024-11-07 00:46:18.952 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:46:18.952 +03:00 [INF] HTTP GET /catalog responded 200 in 1205.3553 ms
+2024-11-07 00:46:18.952 +03:00 [INF] Response: GET /catalog responded with 200
+2024-11-07 00:46:18.952 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/catalog - 200 null text/html; charset=utf-8 1205.9315ms
+2024-11-07 00:46:38.921 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/catalog?pageNo=2 - null null
+2024-11-07 00:46:38.922 +03:00 [INF] Request: GET /catalog
+2024-11-07 00:46:38.927 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:46:38.927 +03:00 [INF] Route matched with {action = "Index", controller = "Shows", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, Int32) on controller WEB_253503_Soroka.UI.Controllers.ShowsController (WEB_253503_Soroka.UI).
+2024-11-07 00:46:38.940 +03:00 [INF] Executing action method WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI) - Validation state: "Valid"
+2024-11-07 00:46:38.941 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/genres
+2024-11-07 00:46:38.941 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/genres
+2024-11-07 00:46:38.955 +03:00 [INF] Received HTTP response headers after 13.4487ms - 200
+2024-11-07 00:46:38.955 +03:00 [INF] End processing HTTP request after 14.2707ms - 200
+2024-11-07 00:46:38.956 +03:00 [INF] Start processing HTTP request POST http://localhost:8080/realms/Soroka/protocol/openid-connect/token
+2024-11-07 00:46:38.956 +03:00 [INF] Sending HTTP request POST http://localhost:8080/realms/Soroka/protocol/openid-connect/token
+2024-11-07 00:46:38.977 +03:00 [INF] Received HTTP response headers after 20.9203ms - 200
+2024-11-07 00:46:38.978 +03:00 [INF] End processing HTTP request after 21.6566ms - 200
+2024-11-07 00:46:38.978 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/shows/genres?pageNo=2
+2024-11-07 00:46:38.978 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/shows/genres?pageNo=2
+2024-11-07 00:46:38.997 +03:00 [INF] Received HTTP response headers after 19.0964ms - 200
+2024-11-07 00:46:38.998 +03:00 [INF] End processing HTTP request after 19.6585ms - 200
+2024-11-07 00:46:38.998 +03:00 [INF] Executed action method WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI), returned result Microsoft.AspNetCore.Mvc.PartialViewResult in 57.5606ms.
+2024-11-07 00:46:39.000 +03:00 [INF] Executing PartialViewResult, running view ~/Views/Shared/Components/Show/_ShowListPartial.cshtml.
+2024-11-07 00:46:39.004 +03:00 [INF] Executed PartialViewResult - view ~/Views/Shared/Components/Show/_ShowListPartial.cshtml executed in 4.6029ms.
+2024-11-07 00:46:39.004 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI) in 76.621ms
+2024-11-07 00:46:39.004 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI)'
+2024-11-07 00:46:39.004 +03:00 [INF] HTTP GET /catalog responded 200 in 82.5221 ms
+2024-11-07 00:46:39.005 +03:00 [INF] Response: GET /catalog responded with 200
+2024-11-07 00:46:39.005 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/catalog?pageNo=2 - 200 null text/html; charset=utf-8 83.811ms
+2024-11-07 00:46:46.092 +03:00 [INF] Application is shutting down...

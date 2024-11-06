@@ -311,3 +311,12 @@
 /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/obj/Debug/net8.0/WEB_253503_Soroka.UI.sourcelink.json
 /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/bin/Debug/net8.0/Serilog.dll
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/bin/Debug/net8.0/Serilog.AspNetCore.dll
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/bin/Debug/net8.0/Serilog.Extensions.Hosting.dll
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/bin/Debug/net8.0/Serilog.Extensions.Logging.dll
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/bin/Debug/net8.0/Serilog.Formatting.Compact.dll
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/bin/Debug/net8.0/Serilog.Settings.Configuration.dll
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/bin/Debug/net8.0/Serilog.Sinks.Console.dll
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/bin/Debug/net8.0/Serilog.Sinks.Debug.dll
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/bin/Debug/net8.0/Serilog.Sinks.File.dll

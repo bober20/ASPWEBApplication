@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WEB_253503_Soroka.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+276a7cdf6cb484e4c67db57a0d64ac4eee8cb283")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed20f3d81e4d98f7ab65ddd7b6d9bbff80af1bd0")]
 [assembly: System.Reflection.AssemblyProductAttribute("WEB_253503_Soroka.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WEB_253503_Soroka.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
