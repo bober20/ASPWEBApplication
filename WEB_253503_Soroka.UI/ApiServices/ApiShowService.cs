@@ -17,7 +17,7 @@ public class ApiShowService : IShowService
     private IFileService _fileService;
     private ITokenAccessor _tokenAccessor;
 
-    public ApiShowService(HttpClient httpClient, IConfiguration configuration, ILogger<ApiShowService> logger,
+    public ApiShowService(HttpClient httpClient, IConfiguration configuration,
         IFileService fileService, ITokenAccessor tokenAccessor)
     {
         _httpClient = httpClient;
@@ -26,7 +26,6 @@ public class ApiShowService : IShowService
         {
             PropertyNamingPolicy = JsonNamingPolicy.CamelCase
         };
-        _logger = logger;
         _fileService = fileService;
         _tokenAccessor = tokenAccessor;
     }

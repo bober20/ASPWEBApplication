@@ -1,0 +1,53 @@
+@implements IDisposable
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+        @if (ShowService.TotalPages != 1)
+        {
+            @if (ShowService.CurrentPage != 1)
+            {
+                <li class="page-item">
+                    <span class="page-link" @onclick="(() => SetCurrentPage(--ShowService.CurrentPage))" aria-label="Next">
+                        <span aria-hidden="true">&laquo;</span>
+                    </span>
+                </li>
+            }
+            @for (int i = 1; i < ShowService.TotalPages + 1; i++)
+            {
+                int temp = i;
+                <li class="page-item @(ShowService.CurrentPage == temp ? "active" : "")"><span class="page-link" @onclick="(() => SetCurrentPage(temp))">@(temp)</span></li>
+            }
+            @if (ShowService.CurrentPage != ShowService.TotalPages)
+            {
+                <li class="page-item">
+                    <span class="page-link" @onclick="(() => SetCurrentPage(++ShowService.CurrentPage))" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </span>
+                </li>
+            }
+        }
+    </ul>
+</nav>
+
+@code {
+    [Parameter]
+    public IShowService ShowService { get; set; }
+    
+    public async void SetCurrentPage(int page)
+    {
+        if (ShowService != null)
+        {
+            await ShowService.GetShowListAsync(page);
+        }
+    }
+    
+    protected override void OnInitialized()
+    {
+        ShowService.DataLoaded += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+        ShowService.DataLoaded -= StateHasChanged;
+    }
+}

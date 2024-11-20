@@ -389,3 +389,12 @@
 /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Tests/obj/Debug/net8.0/WEB_253503_Soroka.Tests.pdb
 /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Tests/obj/Debug/net8.0/WEB_253503_Soroka.Tests.genruntimeconfig.cache
 /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Tests/obj/Debug/net8.0/ref/WEB_253503_Soroka.Tests.dll
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Tests/bin/Debug/net8.0/Serilog.dll
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Tests/bin/Debug/net8.0/Serilog.AspNetCore.dll
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Tests/bin/Debug/net8.0/Serilog.Extensions.Hosting.dll
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Tests/bin/Debug/net8.0/Serilog.Extensions.Logging.dll
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Tests/bin/Debug/net8.0/Serilog.Formatting.Compact.dll
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Tests/bin/Debug/net8.0/Serilog.Settings.Configuration.dll
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Tests/bin/Debug/net8.0/Serilog.Sinks.Console.dll
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Tests/bin/Debug/net8.0/Serilog.Sinks.Debug.dll
+/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.Tests/bin/Debug/net8.0/Serilog.Sinks.File.dll

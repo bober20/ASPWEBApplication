@@ -1,0 +1,31 @@
+@page "/catalog"
+@using Microsoft.AspNetCore.Authorization
+@using WEB_253503_Soroka.Domain.Entities
+@attribute [Authorize]
+
+<h3>Catalog</h3>
+
+<GenreSelector ShowService="ShowService"></GenreSelector>
+<CatalogList ShowService="ShowService" ShowSelected="SelectShow"></CatalogList>
+<Paginator ShowService="ShowService"></Paginator>
+<ShowInfo Show="Show"></ShowInfo>
+
+@code {
+    [Inject]
+    public IShowService ShowService { get; set; }
+    
+    public Show Show { get; set; }
+    
+    protected override async Task OnInitializedAsync()
+    {
+        await ShowService.GetGenreListAsync();
+        await ShowService.GetShowListAsync();
+    }
+    
+    public void SelectShow(Show show)
+    {
+        Show = show;
+        StateHasChanged();
+    }
+}
+

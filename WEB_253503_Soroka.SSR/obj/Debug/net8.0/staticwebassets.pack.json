@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.SSR/obj/Debug/net8.0/scopedcss/projectbundle/WEB_253503_Soroka.SSR.bundle.scp.css",
+      "PackagePath": "staticwebassets/WEB_253503_Soroka.SSR.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.SSR/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.SSR/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.SSR/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.SSR/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.WEB_253503_Soroka.SSR.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.WEB_253503_Soroka.SSR.props",
+      "PackagePath": "build\\WEB_253503_Soroka.SSR.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WEB_253503_Soroka.SSR.props",
+      "PackagePath": "buildMultiTargeting\\WEB_253503_Soroka.SSR.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WEB_253503_Soroka.SSR.props",
+      "PackagePath": "buildTransitive\\WEB_253503_Soroka.SSR.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,42 @@
+@using WEB_253503_Soroka.Domain.Entities
+@implements IDisposable
+
+@if (ShowService.Shows == null)
+{
+    <p>@ShowService.ErrorMessage</p>
+    <p>Loading...</p>
+}
+else
+{
+    <table>
+        @foreach (var show in ShowService.Shows)
+        {
+            <tr>
+                <td style="border: 1px solid black; border-collapse: collapse">@show.Name</td>
+                <td style="border: 1px solid black; border-collapse: collapse">@show.Description</td>
+                <td><button type="button" class="btn btn-outline-info" @onclick="() => SelectShow(show)">More info</button></td>
+            </tr>
+        }
+    </table>
+}
+
+@code {
+    [Parameter] public IShowService ShowService { get; set; }
+
+    [Parameter] public EventCallback<Show> ShowSelected { get; set; }
+
+    private void SelectShow(Show show)
+    {
+        ShowSelected.InvokeAsync(show);
+    }
+
+    protected override void OnInitialized()
+    {
+        ShowService.DataLoaded += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+        ShowService.DataLoaded -= StateHasChanged;
+    }
+}

@@ -888,3 +888,513 @@ System.InvalidOperationException: Unable to resolve service for type 'WEB_253503
 2024-11-07 00:46:39.005 +03:00 [INF] Response: GET /catalog responded with 200
 2024-11-07 00:46:39.005 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/catalog?pageNo=2 - 200 null text/html; charset=utf-8 83.811ms
 2024-11-07 00:46:46.092 +03:00 [INF] Application is shutting down...
+2024-11-11 17:58:45.156 +03:00 [INF] [Started logging...]
+2024-11-11 17:58:45.408 +03:00 [INF] User profile is available. Using '/Users/dara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-11 17:58:48.851 +03:00 [INF] Now listening on: https://localhost:7001
+2024-11-11 17:58:48.851 +03:00 [INF] Now listening on: https://localhost:5001
+2024-11-11 17:58:48.853 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-11 17:58:48.854 +03:00 [INF] Hosting environment: Development
+2024-11-11 17:58:48.854 +03:00 [INF] Content root path: /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI
+2024-11-11 17:58:48.878 +03:00 [INF] Application is shutting down...
+2024-11-11 18:00:44.882 +03:00 [INF] [Started logging...]
+2024-11-11 18:00:44.980 +03:00 [INF] User profile is available. Using '/Users/dara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-11 18:00:45.224 +03:00 [INF] Now listening on: https://localhost:7001
+2024-11-11 18:00:45.224 +03:00 [INF] Now listening on: https://localhost:5001
+2024-11-11 18:00:45.226 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-11 18:00:45.226 +03:00 [INF] Hosting environment: Development
+2024-11-11 18:00:45.226 +03:00 [INF] Content root path: /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI
+2024-11-11 18:00:45.520 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-11-11 18:00:45.523 +03:00 [INF] Request: GET /
+2024-11-11 18:00:45.561 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-11 18:00:45.578 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(WEB_253503_Soroka.UI.Models.SessionCart) on controller WEB_253503_Soroka.UI.Controllers.HomeController (WEB_253503_Soroka.UI).
+2024-11-11 18:00:45.593 +03:00 [INF] Executing action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) - Validation state: "Valid"
+2024-11-11 18:00:45.596 +03:00 [INF] Executed action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3901ms.
+2024-11-11 18:00:45.605 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-11 18:00:45.759 +03:00 [INF] Executed ViewResult - view Index executed in 157.5601ms.
+2024-11-11 18:00:45.766 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) in 187.5607ms
+2024-11-11 18:00:45.766 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-11 18:00:45.768 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-11-11 18:00:45.768 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/css/site.css?v=zfMLimqUcd4tJIMACSRUL0sKYY8UnvUo3xWlDtrzflo - null null
+2024-11-11 18:00:45.768 +03:00 [INF] Request: GET /css/site.css
+2024-11-11 18:00:45.768 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/jquery/dist/jquery.min.js - null null
+2024-11-11 18:00:45.768 +03:00 [INF] Request: GET /lib/jquery/dist/jquery.min.js
+2024-11-11 18:00:45.768 +03:00 [INF] Request: GET /lib/bootstrap/dist/css/bootstrap.min.css
+2024-11-11 18:00:45.770 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/font-awesome/css/all.min.css - null null
+2024-11-11 18:00:45.770 +03:00 [INF] Request: GET /lib/font-awesome/css/all.min.css
+2024-11-11 18:00:45.771 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-11-11 18:00:45.771 +03:00 [INF] Request: GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2024-11-11 18:00:45.772 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/js/site.js?v=ycfineytohQ__UoOe-lX5klOcgL34S5DlYLnBBAOjNU - null null
+2024-11-11 18:00:45.772 +03:00 [INF] Request: GET /js/site.js
+2024-11-11 18:00:45.773 +03:00 [INF] HTTP GET / responded 200 in 247.0486 ms
+2024-11-11 18:00:45.774 +03:00 [INF] Response: GET / responded with 200
+2024-11-11 18:00:45.780 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 null text/html; charset=utf-8 260.5745ms
+2024-11-11 18:00:45.781 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2024-11-11 18:00:45.781 +03:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 10.0465 ms
+2024-11-11 18:00:45.781 +03:00 [INF] Sending file. Request path: '/lib/font-awesome/css/all.min.css'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/lib/font-awesome/css/all.min.css'
+2024-11-11 18:00:45.782 +03:00 [INF] Response: GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded with 200
+2024-11-11 18:00:45.782 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css'
+2024-11-11 18:00:45.782 +03:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 12.8948 ms
+2024-11-11 18:00:45.782 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/css/site.css'
+2024-11-11 18:00:45.782 +03:00 [INF] Response: GET /lib/bootstrap/dist/css/bootstrap.min.css responded with 200
+2024-11-11 18:00:45.782 +03:00 [INF] HTTP GET /css/site.css responded 200 in 13.9686 ms
+2024-11-11 18:00:45.782 +03:00 [INF] Response: GET /css/site.css responded with 200
+2024-11-11 18:00:45.782 +03:00 [INF] HTTP GET /lib/font-awesome/css/all.min.css responded 200 in 11.6335 ms
+2024-11-11 18:00:45.784 +03:00 [INF] Response: GET /lib/font-awesome/css/all.min.css responded with 200
+2024-11-11 18:00:45.784 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/font-awesome/css/all.min.css - 200 96518 text/css 14.4392ms
+2024-11-11 18:00:45.781 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/js/site.js'
+2024-11-11 18:00:45.782 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 14.3723ms
+2024-11-11 18:00:45.784 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/lib/jquery/dist/jquery.min.js'
+2024-11-11 18:00:45.784 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/css/site.css?v=zfMLimqUcd4tJIMACSRUL0sKYY8UnvUo3xWlDtrzflo - 200 396 text/css 15.8762ms
+2024-11-11 18:00:45.782 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 10.6685ms
+2024-11-11 18:00:45.790 +03:00 [INF] HTTP GET /js/site.js responded 200 in 17.7453 ms
+2024-11-11 18:00:45.790 +03:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 22.0901 ms
+2024-11-11 18:00:45.791 +03:00 [INF] Response: GET /js/site.js responded with 200
+2024-11-11 18:00:45.791 +03:00 [INF] Response: GET /lib/jquery/dist/jquery.min.js responded with 200
+2024-11-11 18:00:45.791 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 22.9897ms
+2024-11-11 18:00:45.791 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/js/site.js?v=ycfineytohQ__UoOe-lX5klOcgL34S5DlYLnBBAOjNU - 200 774 text/javascript 19.2133ms
+2024-11-11 18:00:45.809 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/font-awesome/webfonts/fa-brands-400.woff2 - null null
+2024-11-11 18:00:45.810 +03:00 [INF] Request: GET /lib/font-awesome/webfonts/fa-brands-400.woff2
+2024-11-11 18:00:45.811 +03:00 [INF] Sending file. Request path: '/lib/font-awesome/webfonts/fa-brands-400.woff2'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/lib/font-awesome/webfonts/fa-brands-400.woff2'
+2024-11-11 18:00:45.812 +03:00 [INF] HTTP GET /lib/font-awesome/webfonts/fa-brands-400.woff2 responded 200 in 1.9115 ms
+2024-11-11 18:00:45.812 +03:00 [INF] Response: GET /lib/font-awesome/webfonts/fa-brands-400.woff2 responded with 200
+2024-11-11 18:00:45.812 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/font-awesome/webfonts/fa-brands-400.woff2 - 200 118072 font/woff2 2.3621ms
+2024-11-11 18:00:45.822 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/favicon.ico - null null
+2024-11-11 18:00:45.822 +03:00 [INF] Request: GET /favicon.ico
+2024-11-11 18:00:45.823 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/favicon.ico'
+2024-11-11 18:00:45.823 +03:00 [INF] HTTP GET /favicon.ico responded 200 in 0.9760 ms
+2024-11-11 18:00:45.823 +03:00 [INF] Response: GET /favicon.ico responded with 200
+2024-11-11 18:00:45.823 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/favicon.ico - 200 5430 image/x-icon 1.814ms
+2024-11-11 18:00:45.848 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/apple-touch-icon-precomposed.png - null null
+2024-11-11 18:00:45.848 +03:00 [INF] Request: GET /apple-touch-icon-precomposed.png
+2024-11-11 18:00:45.851 +03:00 [INF] HTTP GET /apple-touch-icon-precomposed.png responded 404 in 3.1301 ms
+2024-11-11 18:00:45.852 +03:00 [INF] Response: GET /apple-touch-icon-precomposed.png responded with 404
+2024-11-11 18:00:45.852 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/apple-touch-icon-precomposed.png - 404 0 null 3.9635ms
+2024-11-11 18:00:45.852 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7001/apple-touch-icon-precomposed.png, Response status code: 404
+2024-11-11 18:00:45.853 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/apple-touch-icon.png - null null
+2024-11-11 18:00:45.853 +03:00 [INF] Request: GET /apple-touch-icon.png
+2024-11-11 18:00:45.855 +03:00 [INF] HTTP GET /apple-touch-icon.png responded 404 in 1.4021 ms
+2024-11-11 18:00:45.855 +03:00 [INF] Response: GET /apple-touch-icon.png responded with 404
+2024-11-11 18:00:45.855 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/apple-touch-icon.png - 404 0 null 1.7968ms
+2024-11-11 18:00:45.855 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7001/apple-touch-icon.png, Response status code: 404
+2024-11-11 18:00:48.481 +03:00 [INF] Application is shutting down...
+2024-11-11 20:19:45.082 +03:00 [INF] [Started logging...]
+2024-11-11 20:19:45.304 +03:00 [INF] User profile is available. Using '/Users/dara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-11 20:19:45.600 +03:00 [INF] Now listening on: https://localhost:7001
+2024-11-11 20:19:45.600 +03:00 [INF] Now listening on: https://localhost:5001
+2024-11-11 20:19:45.602 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-11 20:19:45.602 +03:00 [INF] Hosting environment: Development
+2024-11-11 20:19:45.602 +03:00 [INF] Content root path: /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI
+2024-11-11 20:19:45.897 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-11-11 20:19:45.902 +03:00 [INF] Request: GET /
+2024-11-11 20:19:45.943 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-11 20:19:45.959 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(WEB_253503_Soroka.UI.Models.SessionCart) on controller WEB_253503_Soroka.UI.Controllers.HomeController (WEB_253503_Soroka.UI).
+2024-11-11 20:19:45.974 +03:00 [INF] Executing action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) - Validation state: "Valid"
+2024-11-11 20:19:45.977 +03:00 [INF] Executed action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3951ms.
+2024-11-11 20:19:45.986 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-11 20:19:46.133 +03:00 [INF] Executed ViewResult - view Index executed in 148.9838ms.
+2024-11-11 20:19:46.141 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) in 182.1917ms
+2024-11-11 20:19:46.143 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-11 20:19:46.148 +03:00 [INF] HTTP GET / responded 200 in 243.3270 ms
+2024-11-11 20:19:46.149 +03:00 [INF] Response: GET / responded with 200
+2024-11-11 20:19:46.153 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 null text/html; charset=utf-8 257.0955ms
+2024-11-11 20:20:13.728 +03:00 [INF] Application is shutting down...
+2024-11-11 20:20:17.168 +03:00 [INF] [Started logging...]
+2024-11-11 20:20:17.271 +03:00 [INF] User profile is available. Using '/Users/dara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-11 20:20:17.569 +03:00 [INF] Now listening on: https://localhost:7001
+2024-11-11 20:20:17.570 +03:00 [INF] Now listening on: https://localhost:5001
+2024-11-11 20:20:17.571 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-11 20:20:17.572 +03:00 [INF] Hosting environment: Development
+2024-11-11 20:20:17.572 +03:00 [INF] Content root path: /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI
+2024-11-11 20:20:17.763 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-11-11 20:20:17.766 +03:00 [INF] Request: GET /
+2024-11-11 20:20:17.801 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-11 20:20:17.820 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(WEB_253503_Soroka.UI.Models.SessionCart) on controller WEB_253503_Soroka.UI.Controllers.HomeController (WEB_253503_Soroka.UI).
+2024-11-11 20:20:17.836 +03:00 [INF] Executing action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) - Validation state: "Valid"
+2024-11-11 20:20:17.839 +03:00 [INF] Executed action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4026ms.
+2024-11-11 20:20:17.849 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-11 20:20:17.994 +03:00 [INF] Executed ViewResult - view Index executed in 149.0973ms.
+2024-11-11 20:20:17.998 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) in 177.2099ms
+2024-11-11 20:20:17.999 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-11 20:20:18.006 +03:00 [INF] HTTP GET / responded 200 in 237.0548 ms
+2024-11-11 20:20:18.007 +03:00 [INF] Response: GET / responded with 200
+2024-11-11 20:20:18.013 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 null text/html; charset=utf-8 250.4696ms
+2024-11-11 20:20:42.617 +03:00 [INF] Application is shutting down...
+2024-11-11 20:20:49.157 +03:00 [INF] [Started logging...]
+2024-11-11 20:20:49.256 +03:00 [INF] User profile is available. Using '/Users/dara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-11 20:20:49.509 +03:00 [INF] Now listening on: https://localhost:7001
+2024-11-11 20:20:49.510 +03:00 [INF] Now listening on: https://localhost:5001
+2024-11-11 20:20:49.511 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-11 20:20:49.511 +03:00 [INF] Hosting environment: Development
+2024-11-11 20:20:49.511 +03:00 [INF] Content root path: /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI
+2024-11-11 20:20:49.752 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-11-11 20:20:49.755 +03:00 [INF] Request: GET /
+2024-11-11 20:20:49.786 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-11 20:20:49.804 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(WEB_253503_Soroka.UI.Models.SessionCart) on controller WEB_253503_Soroka.UI.Controllers.HomeController (WEB_253503_Soroka.UI).
+2024-11-11 20:20:49.819 +03:00 [INF] Executing action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) - Validation state: "Valid"
+2024-11-11 20:20:49.822 +03:00 [INF] Executed action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4117ms.
+2024-11-11 20:20:49.833 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-11 20:20:49.970 +03:00 [INF] Executed ViewResult - view Index executed in 140.9445ms.
+2024-11-11 20:20:49.973 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) in 168.4897ms
+2024-11-11 20:20:49.973 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-11 20:20:49.978 +03:00 [INF] HTTP GET / responded 200 in 219.5995 ms
+2024-11-11 20:20:49.978 +03:00 [INF] Response: GET / responded with 200
+2024-11-11 20:20:49.986 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 null text/html; charset=utf-8 234.3661ms
+2024-11-11 20:20:58.978 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/catalog - null null
+2024-11-11 20:20:58.979 +03:00 [INF] Request: GET /catalog
+2024-11-11 20:20:58.984 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI)'
+2024-11-11 20:20:58.997 +03:00 [INF] Route matched with {action = "Index", controller = "Shows", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, Int32) on controller WEB_253503_Soroka.UI.Controllers.ShowsController (WEB_253503_Soroka.UI).
+2024-11-11 20:20:59.011 +03:00 [INF] Executing action method WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI) - Validation state: "Valid"
+2024-11-11 20:20:59.027 +03:00 [INF] Start processing HTTP request GET https://localhost:7002/api/genres
+2024-11-11 20:20:59.030 +03:00 [INF] Sending HTTP request GET https://localhost:7002/api/genres
+2024-11-11 20:20:59.329 +03:00 [INF] Received HTTP response headers after 296.801ms - 200
+2024-11-11 20:20:59.330 +03:00 [INF] End processing HTTP request after 309.3298ms - 200
+2024-11-11 20:20:59.373 +03:00 [INF] Start processing HTTP request POST http://localhost:8080/realms/Soroka/protocol/openid-connect/token
+2024-11-11 20:20:59.373 +03:00 [INF] Sending HTTP request POST http://localhost:8080/realms/Soroka/protocol/openid-connect/token
+2024-11-11 20:20:59.381 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI) in 383.5788ms
+2024-11-11 20:20:59.382 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.ShowsController.Index (WEB_253503_Soroka.UI)'
+2024-11-11 20:20:59.382 +03:00 [ERR] HTTP GET /catalog responded 500 in 403.2178 ms
+System.Net.Http.HttpRequestException: Connection refused (localhost:8080)
+ ---> System.Net.Sockets.SocketException (61): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at WEB_253503_Soroka.UI.Services.Authentication.KeycloakTokenAccessor.GetAccessTokenAsync() in /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/Services/Authentication/KeycloakTokenAccessor.cs:line 40
+   at WEB_253503_Soroka.UI.Services.Authentication.KeycloakTokenAccessor.SetAuthorizationHeaderAsync(HttpClient httpClient) in /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/Services/Authentication/KeycloakTokenAccessor.cs:line 51
+   at WEB_253503_Soroka.UI.ApiServices.ApiShowService.GetShowListAsync(String genreNormalizedName, Int32 pageNo) in /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/ApiServices/ApiShowService.cs:line 79
+   at WEB_253503_Soroka.UI.Controllers.ShowsController.Index(String genre, Int32 pageNo) in /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/Controllers/ShowsController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-11-11 20:20:59.401 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Connection refused (localhost:8080)
+ ---> System.Net.Sockets.SocketException (61): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at WEB_253503_Soroka.UI.Services.Authentication.KeycloakTokenAccessor.GetAccessTokenAsync() in /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/Services/Authentication/KeycloakTokenAccessor.cs:line 40
+   at WEB_253503_Soroka.UI.Services.Authentication.KeycloakTokenAccessor.SetAuthorizationHeaderAsync(HttpClient httpClient) in /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/Services/Authentication/KeycloakTokenAccessor.cs:line 51
+   at WEB_253503_Soroka.UI.ApiServices.ApiShowService.GetShowListAsync(String genreNormalizedName, Int32 pageNo) in /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/ApiServices/ApiShowService.cs:line 79
+   at WEB_253503_Soroka.UI.Controllers.ShowsController.Index(String genre, Int32 pageNo) in /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/Controllers/ShowsController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at WEB_253503_Soroka.UI.Middleware.LoggerMiddleware.Invoke(HttpContext context) in /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/Middleware/LoggerMiddleware.cs:line 21
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-11 20:20:59.430 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/catalog - 500 null text/html; charset=utf-8 452.3571ms
+2024-11-11 20:21:44.901 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-11-11 20:21:44.901 +03:00 [INF] Request: GET /
+2024-11-11 20:21:44.906 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-11 20:21:44.907 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(WEB_253503_Soroka.UI.Models.SessionCart) on controller WEB_253503_Soroka.UI.Controllers.HomeController (WEB_253503_Soroka.UI).
+2024-11-11 20:21:44.909 +03:00 [INF] Executing action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) - Validation state: "Valid"
+2024-11-11 20:21:44.909 +03:00 [INF] Executed action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0935ms.
+2024-11-11 20:21:44.911 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-11 20:21:44.923 +03:00 [INF] Executed ViewResult - view Index executed in 13.0377ms.
+2024-11-11 20:21:44.924 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) in 16.5324ms
+2024-11-11 20:21:44.924 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-11 20:21:44.925 +03:00 [INF] HTTP GET / responded 200 in 23.0020 ms
+2024-11-11 20:21:44.925 +03:00 [INF] Response: GET / responded with 200
+2024-11-11 20:21:44.925 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 null text/html; charset=utf-8 24.8124ms
+2024-11-11 20:28:45.229 +03:00 [INF] Application is shutting down...
+2024-11-11 22:32:54.607 +03:00 [INF] [Started logging...]
+2024-11-11 22:32:54.728 +03:00 [INF] User profile is available. Using '/Users/dara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-11 22:32:55.021 +03:00 [INF] Now listening on: https://localhost:7001
+2024-11-11 22:32:55.021 +03:00 [INF] Now listening on: https://localhost:5001
+2024-11-11 22:32:55.023 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-11 22:32:55.023 +03:00 [INF] Hosting environment: Development
+2024-11-11 22:32:55.023 +03:00 [INF] Content root path: /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI
+2024-11-11 22:32:55.659 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-11-11 22:32:55.662 +03:00 [INF] Request: GET /
+2024-11-11 22:32:55.700 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-11 22:32:55.718 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(WEB_253503_Soroka.UI.Models.SessionCart) on controller WEB_253503_Soroka.UI.Controllers.HomeController (WEB_253503_Soroka.UI).
+2024-11-11 22:32:55.735 +03:00 [INF] Executing action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) - Validation state: "Valid"
+2024-11-11 22:32:55.739 +03:00 [INF] Executed action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4852ms.
+2024-11-11 22:32:55.748 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-11 22:32:55.890 +03:00 [INF] Executed ViewResult - view Index executed in 146.5502ms.
+2024-11-11 22:32:55.893 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) in 175.0893ms
+2024-11-11 22:32:55.894 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-11 22:32:55.902 +03:00 [INF] HTTP GET / responded 200 in 236.9803 ms
+2024-11-11 22:32:55.903 +03:00 [INF] Response: GET / responded with 200
+2024-11-11 22:32:55.908 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 null text/html; charset=utf-8 250.0811ms
+2024-11-11 22:33:00.806 +03:00 [INF] Application is shutting down...
+2024-11-17 14:02:07.785 +03:00 [INF] [Started logging...]
+2024-11-17 14:02:07.910 +03:00 [INF] User profile is available. Using '/Users/dara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-17 14:02:08.184 +03:00 [INF] Now listening on: https://localhost:7001
+2024-11-17 14:02:08.185 +03:00 [INF] Now listening on: https://localhost:5001
+2024-11-17 14:02:08.186 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-17 14:02:08.186 +03:00 [INF] Hosting environment: Development
+2024-11-17 14:02:08.186 +03:00 [INF] Content root path: /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI
+2024-11-17 14:02:08.386 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-11-17 14:02:08.390 +03:00 [INF] Request: GET /
+2024-11-17 14:02:08.430 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-17 14:02:08.445 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(WEB_253503_Soroka.UI.Models.SessionCart) on controller WEB_253503_Soroka.UI.Controllers.HomeController (WEB_253503_Soroka.UI).
+2024-11-17 14:02:08.462 +03:00 [INF] Executing action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) - Validation state: "Valid"
+2024-11-17 14:02:08.465 +03:00 [INF] Executed action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3692ms.
+2024-11-17 14:02:08.476 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-17 14:02:08.604 +03:00 [INF] Executed ViewResult - view Index executed in 131.7533ms.
+2024-11-17 14:02:08.608 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) in 163.1974ms
+2024-11-17 14:02:08.609 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-17 14:02:08.611 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/css/site.css?v=zfMLimqUcd4tJIMACSRUL0sKYY8UnvUo3xWlDtrzflo - null null
+2024-11-17 14:02:08.611 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-11-17 14:02:08.611 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/jquery/dist/jquery.min.js - null null
+2024-11-17 14:02:08.611 +03:00 [INF] Request: GET /lib/jquery/dist/jquery.min.js
+2024-11-17 14:02:08.611 +03:00 [INF] Request: GET /css/site.css
+2024-11-17 14:02:08.611 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/font-awesome/css/all.min.css - null null
+2024-11-17 14:02:08.612 +03:00 [INF] Request: GET /lib/font-awesome/css/all.min.css
+2024-11-17 14:02:08.611 +03:00 [INF] Request: GET /lib/bootstrap/dist/css/bootstrap.min.css
+2024-11-17 14:02:08.613 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-11-17 14:02:08.613 +03:00 [INF] Request: GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2024-11-17 14:02:08.615 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/js/site.js?v=ycfineytohQ__UoOe-lX5klOcgL34S5DlYLnBBAOjNU - null null
+2024-11-17 14:02:08.615 +03:00 [INF] Request: GET /js/site.js
+2024-11-17 14:02:08.615 +03:00 [INF] HTTP GET / responded 200 in 221.7857 ms
+2024-11-17 14:02:08.617 +03:00 [INF] Response: GET / responded with 200
+2024-11-17 14:02:08.623 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/js/site.js'
+2024-11-17 14:02:08.623 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2024-11-17 14:02:08.623 +03:00 [INF] Sending file. Request path: '/lib/font-awesome/css/all.min.css'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/lib/font-awesome/css/all.min.css'
+2024-11-17 14:02:08.623 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/lib/jquery/dist/jquery.min.js'
+2024-11-17 14:02:08.623 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/css/site.css'
+2024-11-17 14:02:08.623 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css'
+2024-11-17 14:02:08.624 +03:00 [INF] HTTP GET /js/site.js responded 200 in 8.1940 ms
+2024-11-17 14:02:08.624 +03:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 10.5607 ms
+2024-11-17 14:02:08.624 +03:00 [INF] HTTP GET /lib/font-awesome/css/all.min.css responded 200 in 11.4036 ms
+2024-11-17 14:02:08.624 +03:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 12.4885 ms
+2024-11-17 14:02:08.624 +03:00 [INF] HTTP GET /css/site.css responded 200 in 11.8616 ms
+2024-11-17 14:02:08.624 +03:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 11.3098 ms
+2024-11-17 14:02:08.624 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 null text/html; charset=utf-8 238.5484ms
+2024-11-17 14:02:08.624 +03:00 [INF] Response: GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded with 200
+2024-11-17 14:02:08.624 +03:00 [INF] Response: GET /js/site.js responded with 200
+2024-11-17 14:02:08.625 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 11.978ms
+2024-11-17 14:02:08.625 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/js/site.js?v=ycfineytohQ__UoOe-lX5klOcgL34S5DlYLnBBAOjNU - 200 774 text/javascript 10.4507ms
+2024-11-17 14:02:08.625 +03:00 [INF] Response: GET /css/site.css responded with 200
+2024-11-17 14:02:08.624 +03:00 [INF] Response: GET /lib/jquery/dist/jquery.min.js responded with 200
+2024-11-17 14:02:08.626 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/css/site.css?v=zfMLimqUcd4tJIMACSRUL0sKYY8UnvUo3xWlDtrzflo - 200 396 text/css 14.7898ms
+2024-11-17 14:02:08.626 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 14.9459ms
+2024-11-17 14:02:08.624 +03:00 [INF] Response: GET /lib/font-awesome/css/all.min.css responded with 200
+2024-11-17 14:02:08.625 +03:00 [INF] Response: GET /lib/bootstrap/dist/css/bootstrap.min.css responded with 200
+2024-11-17 14:02:08.626 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 15.6045ms
+2024-11-17 14:02:08.626 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/font-awesome/css/all.min.css - 200 96518 text/css 15.4469ms
+2024-11-17 14:02:08.655 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/font-awesome/webfonts/fa-brands-400.woff2 - null null
+2024-11-17 14:02:08.656 +03:00 [INF] Request: GET /lib/font-awesome/webfonts/fa-brands-400.woff2
+2024-11-17 14:02:08.656 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/favicon.ico - null null
+2024-11-17 14:02:08.656 +03:00 [INF] Request: GET /favicon.ico
+2024-11-17 14:02:08.658 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/favicon.ico'
+2024-11-17 14:02:08.659 +03:00 [INF] HTTP GET /favicon.ico responded 200 in 2.2540 ms
+2024-11-17 14:02:08.659 +03:00 [INF] Response: GET /favicon.ico responded with 200
+2024-11-17 14:02:08.659 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/favicon.ico - 200 5430 image/x-icon 2.8248ms
+2024-11-17 14:02:08.666 +03:00 [INF] Sending file. Request path: '/lib/font-awesome/webfonts/fa-brands-400.woff2'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/lib/font-awesome/webfonts/fa-brands-400.woff2'
+2024-11-17 14:02:08.667 +03:00 [INF] HTTP GET /lib/font-awesome/webfonts/fa-brands-400.woff2 responded 200 in 11.4253 ms
+2024-11-17 14:02:08.670 +03:00 [INF] Response: GET /lib/font-awesome/webfonts/fa-brands-400.woff2 responded with 200
+2024-11-17 14:02:08.671 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/font-awesome/webfonts/fa-brands-400.woff2 - 200 118072 font/woff2 16.428ms
+2024-11-17 14:02:47.470 +03:00 [INF] Application is shutting down...
+2024-11-17 14:07:44.475 +03:00 [INF] [Started logging...]
+2024-11-17 14:07:44.583 +03:00 [INF] User profile is available. Using '/Users/dara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-17 14:07:44.859 +03:00 [INF] Now listening on: https://localhost:7001
+2024-11-17 14:07:44.859 +03:00 [INF] Now listening on: https://localhost:5001
+2024-11-17 14:07:44.861 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-17 14:07:44.861 +03:00 [INF] Hosting environment: Development
+2024-11-17 14:07:44.861 +03:00 [INF] Content root path: /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI
+2024-11-17 14:07:45.198 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-11-17 14:07:45.202 +03:00 [INF] Request: GET /
+2024-11-17 14:07:45.239 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-17 14:07:45.254 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(WEB_253503_Soroka.UI.Models.SessionCart) on controller WEB_253503_Soroka.UI.Controllers.HomeController (WEB_253503_Soroka.UI).
+2024-11-17 14:07:45.271 +03:00 [INF] Executing action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) - Validation state: "Valid"
+2024-11-17 14:07:45.273 +03:00 [INF] Executed action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3883ms.
+2024-11-17 14:07:45.283 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-17 14:07:45.409 +03:00 [INF] Executed ViewResult - view Index executed in 130.251ms.
+2024-11-17 14:07:45.411 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) in 156.0305ms
+2024-11-17 14:07:45.411 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-17 14:07:45.415 +03:00 [INF] HTTP GET / responded 200 in 211.7868 ms
+2024-11-17 14:07:45.416 +03:00 [INF] Response: GET / responded with 200
+2024-11-17 14:07:45.420 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/jquery/dist/jquery.min.js - null null
+2024-11-17 14:07:45.420 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 null text/html; charset=utf-8 222.6147ms
+2024-11-17 14:07:45.420 +03:00 [INF] Request: GET /lib/jquery/dist/jquery.min.js
+2024-11-17 14:07:45.420 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/css/site.css?v=zfMLimqUcd4tJIMACSRUL0sKYY8UnvUo3xWlDtrzflo - null null
+2024-11-17 14:07:45.421 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/js/site.js?v=ycfineytohQ__UoOe-lX5klOcgL34S5DlYLnBBAOjNU - null null
+2024-11-17 14:07:45.421 +03:00 [INF] Request: GET /js/site.js
+2024-11-17 14:07:45.420 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-11-17 14:07:45.421 +03:00 [INF] Request: GET /lib/bootstrap/dist/css/bootstrap.min.css
+2024-11-17 14:07:45.420 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-11-17 14:07:45.421 +03:00 [INF] Request: GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2024-11-17 14:07:45.420 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/font-awesome/css/all.min.css - null null
+2024-11-17 14:07:45.422 +03:00 [INF] Request: GET /lib/font-awesome/css/all.min.css
+2024-11-17 14:07:45.421 +03:00 [INF] Request: GET /css/site.css
+2024-11-17 14:07:45.439 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/css/site.css'
+2024-11-17 14:07:45.439 +03:00 [INF] Sending file. Request path: '/lib/font-awesome/css/all.min.css'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/lib/font-awesome/css/all.min.css'
+2024-11-17 14:07:45.439 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/lib/jquery/dist/jquery.min.js'
+2024-11-17 14:07:45.439 +03:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 18.9050 ms
+2024-11-17 14:07:45.439 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css'
+2024-11-17 14:07:45.439 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/js/site.js'
+2024-11-17 14:07:45.439 +03:00 [INF] HTTP GET /css/site.css responded 200 in 16.6482 ms
+2024-11-17 14:07:45.439 +03:00 [INF] HTTP GET /lib/font-awesome/css/all.min.css responded 200 in 17.2199 ms
+2024-11-17 14:07:45.439 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2024-11-17 14:07:45.439 +03:00 [INF] Response: GET /lib/jquery/dist/jquery.min.js responded with 200
+2024-11-17 14:07:45.439 +03:00 [INF] HTTP GET /js/site.js responded 200 in 18.6206 ms
+2024-11-17 14:07:45.440 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 19.9902ms
+2024-11-17 14:07:45.440 +03:00 [INF] Response: GET /css/site.css responded with 200
+2024-11-17 14:07:45.440 +03:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 18.5572 ms
+2024-11-17 14:07:45.439 +03:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 18.3809 ms
+2024-11-17 14:07:45.440 +03:00 [INF] Response: GET /js/site.js responded with 200
+2024-11-17 14:07:45.440 +03:00 [INF] Response: GET /lib/font-awesome/css/all.min.css responded with 200
+2024-11-17 14:07:45.441 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/css/site.css?v=zfMLimqUcd4tJIMACSRUL0sKYY8UnvUo3xWlDtrzflo - 200 396 text/css 20.528ms
+2024-11-17 14:07:45.441 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/font-awesome/css/all.min.css - 200 96518 text/css 20.8674ms
+2024-11-17 14:07:45.440 +03:00 [INF] Response: GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded with 200
+2024-11-17 14:07:45.441 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/js/site.js?v=ycfineytohQ__UoOe-lX5klOcgL34S5DlYLnBBAOjNU - 200 774 text/javascript 20.336ms
+2024-11-17 14:07:45.442 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 21.6225ms
+2024-11-17 14:07:45.441 +03:00 [INF] Response: GET /lib/bootstrap/dist/css/bootstrap.min.css responded with 200
+2024-11-17 14:07:45.442 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 22.0898ms
+2024-11-17 14:07:45.468 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/font-awesome/webfonts/fa-brands-400.woff2 - null null
+2024-11-17 14:07:45.468 +03:00 [INF] Request: GET /lib/font-awesome/webfonts/fa-brands-400.woff2
+2024-11-17 14:07:45.470 +03:00 [INF] Sending file. Request path: '/lib/font-awesome/webfonts/fa-brands-400.woff2'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/lib/font-awesome/webfonts/fa-brands-400.woff2'
+2024-11-17 14:07:45.470 +03:00 [INF] HTTP GET /lib/font-awesome/webfonts/fa-brands-400.woff2 responded 200 in 1.8184 ms
+2024-11-17 14:07:45.470 +03:00 [INF] Response: GET /lib/font-awesome/webfonts/fa-brands-400.woff2 responded with 200
+2024-11-17 14:07:45.470 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/font-awesome/webfonts/fa-brands-400.woff2 - 200 118072 font/woff2 2.3643ms
+2024-11-17 14:07:47.787 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/Account/Login - null null
+2024-11-17 14:07:47.787 +03:00 [INF] Request: GET /Account/Login
+2024-11-17 14:07:47.793 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.AccountController.Login (WEB_253503_Soroka.UI)'
+2024-11-17 14:07:47.796 +03:00 [INF] Route matched with {action = "Login", controller = "Account", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WEB_253503_Soroka.UI.Controllers.AccountController (WEB_253503_Soroka.UI).
+2024-11-17 14:07:47.798 +03:00 [INF] Executing action method WEB_253503_Soroka.UI.Controllers.AccountController.Login (WEB_253503_Soroka.UI) - Validation state: "Valid"
+2024-11-17 14:07:47.799 +03:00 [INF] Executed action method WEB_253503_Soroka.UI.Controllers.AccountController.Login (WEB_253503_Soroka.UI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.7498ms.
+2024-11-17 14:07:47.801 +03:00 [INF] Executing ViewResult, running view Login.
+2024-11-17 14:07:47.850 +03:00 [INF] Executed ViewResult - view Login executed in 50.4053ms.
+2024-11-17 14:07:47.850 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.AccountController.Login (WEB_253503_Soroka.UI) in 53.9189ms
+2024-11-17 14:07:47.851 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.AccountController.Login (WEB_253503_Soroka.UI)'
+2024-11-17 14:07:47.851 +03:00 [INF] HTTP GET /Account/Login responded 200 in 63.3358 ms
+2024-11-17 14:07:47.851 +03:00 [INF] Response: GET /Account/Login responded with 200
+2024-11-17 14:07:47.852 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/Account/Login - 200 null text/html; charset=utf-8 64.6457ms
+2024-11-17 14:07:49.138 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7001/Account/LoginHandler - multipart/form-data; boundary=----WebKitFormBoundarywloQMjQA4Yx9KYrb 499
+2024-11-17 14:07:49.139 +03:00 [INF] Request: POST /Account/LoginHandler
+2024-11-17 14:07:49.145 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.AccountController.LoginHandler (WEB_253503_Soroka.UI)'
+2024-11-17 14:07:49.157 +03:00 [INF] Route matched with {action = "LoginHandler", controller = "Account", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task LoginHandler() on controller WEB_253503_Soroka.UI.Controllers.AccountController (WEB_253503_Soroka.UI).
+2024-11-17 14:07:49.158 +03:00 [INF] Executing action method WEB_253503_Soroka.UI.Controllers.AccountController.LoginHandler (WEB_253503_Soroka.UI) - Validation state: "Valid"
+2024-11-17 14:07:49.280 +03:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2024-11-17 14:07:49.281 +03:00 [INF] Executed action method WEB_253503_Soroka.UI.Controllers.AccountController.LoginHandler (WEB_253503_Soroka.UI), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 123.1418ms.
+2024-11-17 14:07:49.283 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.AccountController.LoginHandler (WEB_253503_Soroka.UI) in 125.8818ms
+2024-11-17 14:07:49.283 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.AccountController.LoginHandler (WEB_253503_Soroka.UI)'
+2024-11-17 14:07:49.283 +03:00 [INF] HTTP POST /Account/LoginHandler responded 302 in 144.7135 ms
+2024-11-17 14:07:49.284 +03:00 [ERR] Bad response: POST /Account/LoginHandler responded with 302
+2024-11-17 14:07:49.284 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7001/Account/LoginHandler - 302 0 null 146.2467ms
+2024-11-17 14:16:46.424 +03:00 [INF] Application is shutting down...
+2024-11-18 18:37:47.595 +03:00 [INF] [Started logging...]
+2024-11-18 18:37:47.727 +03:00 [INF] User profile is available. Using '/Users/dara/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-18 18:37:48.029 +03:00 [INF] Now listening on: https://localhost:7001
+2024-11-18 18:37:48.029 +03:00 [INF] Now listening on: https://localhost:5001
+2024-11-18 18:37:48.031 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-18 18:37:48.031 +03:00 [INF] Hosting environment: Development
+2024-11-18 18:37:48.031 +03:00 [INF] Content root path: /Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI
+2024-11-18 18:37:48.322 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/ - null null
+2024-11-18 18:37:48.327 +03:00 [INF] Request: GET /
+2024-11-18 18:37:48.378 +03:00 [INF] Executing endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-18 18:37:48.398 +03:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(WEB_253503_Soroka.UI.Models.SessionCart) on controller WEB_253503_Soroka.UI.Controllers.HomeController (WEB_253503_Soroka.UI).
+2024-11-18 18:37:48.418 +03:00 [INF] Executing action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) - Validation state: "Valid"
+2024-11-18 18:37:48.421 +03:00 [INF] Executed action method WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4584ms.
+2024-11-18 18:37:48.432 +03:00 [INF] Executing ViewResult, running view Index.
+2024-11-18 18:37:48.578 +03:00 [INF] Executed ViewResult - view Index executed in 151.6929ms.
+2024-11-18 18:37:48.581 +03:00 [INF] Executed action WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI) in 182.3233ms
+2024-11-18 18:37:48.581 +03:00 [INF] Executed endpoint 'WEB_253503_Soroka.UI.Controllers.HomeController.Index (WEB_253503_Soroka.UI)'
+2024-11-18 18:37:48.590 +03:00 [INF] HTTP GET / responded 200 in 258.4638 ms
+2024-11-18 18:37:48.591 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/font-awesome/css/all.min.css - null null
+2024-11-18 18:37:48.591 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-11-18 18:37:48.591 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/css/site.css?v=zfMLimqUcd4tJIMACSRUL0sKYY8UnvUo3xWlDtrzflo - null null
+2024-11-18 18:37:48.591 +03:00 [INF] Response: GET / responded with 200
+2024-11-18 18:37:48.591 +03:00 [INF] Request: GET /lib/bootstrap/dist/css/bootstrap.min.css
+2024-11-18 18:37:48.591 +03:00 [INF] Request: GET /lib/font-awesome/css/all.min.css
+2024-11-18 18:37:48.591 +03:00 [INF] Request: GET /css/site.css
+2024-11-18 18:37:48.593 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/jquery/dist/jquery.min.js - null null
+2024-11-18 18:37:48.594 +03:00 [INF] Request: GET /lib/jquery/dist/jquery.min.js
+2024-11-18 18:37:48.594 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-11-18 18:37:48.594 +03:00 [INF] Request: GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2024-11-18 18:37:48.595 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/js/site.js?v=ycfineytohQ__UoOe-lX5klOcgL34S5DlYLnBBAOjNU - null null
+2024-11-18 18:37:48.595 +03:00 [INF] Request: GET /js/site.js
+2024-11-18 18:37:48.600 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/ - 200 null text/html; charset=utf-8 278.9392ms
+2024-11-18 18:37:48.606 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/js/site.js'
+2024-11-18 18:37:48.606 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2024-11-18 18:37:48.606 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/lib/jquery/dist/jquery.min.js'
+2024-11-18 18:37:48.606 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css'
+2024-11-18 18:37:48.606 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/css/site.css'
+2024-11-18 18:37:48.606 +03:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 14.8869 ms
+2024-11-18 18:37:48.606 +03:00 [INF] HTTP GET /js/site.js responded 200 in 10.8925 ms
+2024-11-18 18:37:48.606 +03:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 11.8858 ms
+2024-11-18 18:37:48.607 +03:00 [INF] Response: GET /lib/bootstrap/dist/css/bootstrap.min.css responded with 200
+2024-11-18 18:37:48.606 +03:00 [INF] Sending file. Request path: '/lib/font-awesome/css/all.min.css'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/lib/font-awesome/css/all.min.css'
+2024-11-18 18:37:48.606 +03:00 [INF] HTTP GET /css/site.css responded 200 in 14.6092 ms
+2024-11-18 18:37:48.607 +03:00 [INF] Response: GET /js/site.js responded with 200
+2024-11-18 18:37:48.607 +03:00 [INF] Response: GET /css/site.css responded with 200
+2024-11-18 18:37:48.607 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/js/site.js?v=ycfineytohQ__UoOe-lX5klOcgL34S5DlYLnBBAOjNU - 200 774 text/javascript 12.0258ms
+2024-11-18 18:37:48.607 +03:00 [INF] HTTP GET /lib/font-awesome/css/all.min.css responded 200 in 15.2140 ms
+2024-11-18 18:37:48.607 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/css/site.css?v=zfMLimqUcd4tJIMACSRUL0sKYY8UnvUo3xWlDtrzflo - 200 396 text/css 16.1693ms
+2024-11-18 18:37:48.606 +03:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 12.6113 ms
+2024-11-18 18:37:48.608 +03:00 [INF] Response: GET /lib/font-awesome/css/all.min.css responded with 200
+2024-11-18 18:37:48.608 +03:00 [INF] Response: GET /lib/jquery/dist/jquery.min.js responded with 200
+2024-11-18 18:37:48.607 +03:00 [INF] Response: GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded with 200
+2024-11-18 18:37:48.607 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 16.2067ms
+2024-11-18 18:37:48.608 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/font-awesome/css/all.min.css - 200 96518 text/css 17.4353ms
+2024-11-18 18:37:48.608 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 14.7413ms
+2024-11-18 18:37:48.608 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 14.4055ms
+2024-11-18 18:37:48.675 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/lib/font-awesome/webfonts/fa-brands-400.woff2 - null null
+2024-11-18 18:37:48.676 +03:00 [INF] Request: GET /lib/font-awesome/webfonts/fa-brands-400.woff2
+2024-11-18 18:37:48.677 +03:00 [INF] Sending file. Request path: '/lib/font-awesome/webfonts/fa-brands-400.woff2'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/lib/font-awesome/webfonts/fa-brands-400.woff2'
+2024-11-18 18:37:48.678 +03:00 [INF] HTTP GET /lib/font-awesome/webfonts/fa-brands-400.woff2 responded 200 in 1.9245 ms
+2024-11-18 18:37:48.678 +03:00 [INF] Response: GET /lib/font-awesome/webfonts/fa-brands-400.woff2 responded with 200
+2024-11-18 18:37:48.678 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/lib/font-awesome/webfonts/fa-brands-400.woff2 - 200 118072 font/woff2 2.4905ms
+2024-11-18 18:37:48.693 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7001/favicon.ico - null null
+2024-11-18 18:37:48.693 +03:00 [INF] Request: GET /favicon.ico
+2024-11-18 18:37:48.694 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: '/Users/dara/VSWEB/WEB_253503_Soroka/WEB_253503_Soroka.UI/wwwroot/favicon.ico'
+2024-11-18 18:37:48.694 +03:00 [INF] HTTP GET /favicon.ico responded 200 in 0.5024 ms
+2024-11-18 18:37:48.694 +03:00 [INF] Response: GET /favicon.ico responded with 200
+2024-11-18 18:37:48.694 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7001/favicon.ico - 200 5430 image/x-icon 0.8856ms
+2024-11-18 18:38:18.567 +03:00 [INF] Application is shutting down...

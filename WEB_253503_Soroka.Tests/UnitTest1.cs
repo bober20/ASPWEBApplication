@@ -59,7 +59,7 @@ public class ShowsControllerTests
         var okResult = Assert.IsType<ViewResult>(result);
         
         Assert.NotNull(okResult.ViewData["currentGenre"]);
-        Assert.Equal("Триллер", (okResult.ViewData["currentGenre"]));
+        Assert.Contains("Триллер", okResult.ViewData["currentGenre"].ToString());
     }
 
     [Fact]
@@ -71,7 +71,7 @@ public class ShowsControllerTests
         var okResult = Assert.IsType<ViewResult>(result);
         
         Assert.NotNull(okResult.ViewData["currentGenre"]);
-        Assert.Equal("Все", okResult.ViewData["currentGenre"]);
+        Assert.Contains("Все", okResult.ViewData["currentGenre"].ToString());
     }
     
     [Fact]

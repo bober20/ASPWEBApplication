@@ -9,17 +9,15 @@ namespace WEB_253503_Soroka.UI.ApiServices;
 public class ApiGenreService : IGenreService
 {
     private HttpClient _httpClient;
-    private ILogger<ApiGenreService> _logger;
     private JsonSerializerOptions _serializerOptions;
     
-    public ApiGenreService(HttpClient httpClient, ILogger<ApiGenreService> logger)
+    public ApiGenreService(HttpClient httpClient)
     {
         _httpClient = httpClient;
         _serializerOptions = new JsonSerializerOptions
         {
             PropertyNamingPolicy = JsonNamingPolicy.CamelCase
         };
-        _logger = logger;
     }
     
     public async Task<ResponseData<List<Genre>>> GetGenreListAsync()
@@ -36,12 +34,10 @@ public class ApiGenreService : IGenreService
             }
             catch(JsonException ex)
             {
-                _logger.LogError($"-----> Ошибка: {ex.Message}");
                 return ResponseData<List<Genre>>.Error($"Ошибка: {ex.Message}");
             }
         }
         
-        _logger.LogError($"-----> Данные не получены от сервера. Error: {response.StatusCode.ToString()}");
         return ResponseData<List<Genre>>.Error(
             $"Данные не получены от сервера. Error: {response.StatusCode.ToString()}");
         

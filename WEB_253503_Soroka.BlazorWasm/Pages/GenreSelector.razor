@@ -1,0 +1,42 @@
+@using WEB_253503_Soroka.Domain.Entities
+@implements IDisposable
+
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        @(ShowService?.SelectedGenre == null ? "All" : ShowService.SelectedGenre.Name)
+    </button>
+    <ul class="dropdown-menu">
+        <li><span class="dropdown-item" href="#" @onclick="(() => SetCurrentGenre(null))">All</span></li>
+        @if (ShowService?.Genres != null)
+        {
+            @foreach (var genre in ShowService.Genres)
+            {
+                <li><span class="dropdown-item" @onclick="(() => SetCurrentGenre(genre))">@genre.Name</span></li>
+            }
+        }
+    </ul>
+</div>
+
+@code {
+    [Parameter] public IShowService ShowService { get; set; }
+
+    public async void SetCurrentGenre(Genre? genre)
+    {
+        if (ShowService != null)
+        {
+            ShowService.SelectedGenre = genre;
+            await ShowService.GetShowListAsync();
+        }
+    }
+    
+    protected override void OnInitialized()
+    {
+        ShowService.DataLoaded += StateHasChanged;
+    }
+    
+    public void Dispose()
+    {
+        ShowService.DataLoaded -= StateHasChanged;
+    }
+    
+}
