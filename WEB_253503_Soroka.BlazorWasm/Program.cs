@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using WEB_253503_Soroka.BlazorWasm;
 using WEB_253503_Soroka.BlazorWasm.Services;
-using Microsoft.Extensions.Http;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");

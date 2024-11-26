@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "WEB_253503_Soroka.BlazorWasm",
   "resources": {
-    "hash": "sha256-+KD7HPW+Nt7jH+mMdB1JK+qRfVZynNHoYEh2u4+7180=",
+    "hash": "sha256-cfKn7zh1IYe0+spzJUfY2YnU3tzbM4Zbxr2ytfjLQjg=",
     "jsModuleNative": {
       "dotnet.native.8.0.8.5u7q8g491w.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
     },
@@ -220,12 +220,12 @@
       "mscorlib.wasm": "sha256-Gz8PyW2/fwihe5ul81OwmRUrU71r+KtbyRw6xlOGD+Q=",
       "netstandard.wasm": "sha256-jMTqIQzoDS810lyhZpMO5eEC36EzntXqSVn+2qwkOMQ=",
       "System.Private.CoreLib.wasm": "sha256-NFj5WE5VLP2LptZIRJCUIc1AMk06FmxpsSILfPISwAw=",
-      "WEB_253503_Soroka.Domain.wasm": "sha256-feW2TeiBandDMZbgX6EAsPmsybSBMbTSUImg9Hn6YDk=",
-      "WEB_253503_Soroka.BlazorWasm.wasm": "sha256-1nruxEkPdmO3WGlb5e3W5aEmb62POKqXonMIbUGbDWs="
+      "WEB_253503_Soroka.Domain.wasm": "sha256-xQ3zOJr7fIN7VMjdiow67qLkB+ZsvrzSZVSB3yCJaLw=",
+      "WEB_253503_Soroka.BlazorWasm.wasm": "sha256-tVCp8bkROpZIvVq8cG/d2427wG4SZjsaAvvkGyR6VHE="
     },
     "pdb": {
-      "WEB_253503_Soroka.Domain.pdb": "sha256-LzU0vW09CSeg2Q4Y97GXerU7ReBHVCCEleRzAV6ev40=",
-      "WEB_253503_Soroka.BlazorWasm.pdb": "sha256-nfEXj1tp7tJ7GLQgX9lUyjUaebWkPmVAyNwElmY0JEk="
+      "WEB_253503_Soroka.Domain.pdb": "sha256-bEtxJzPcx0Z2XdCgy27kCB04fSEoEBkLkMx4GAWSA+U=",
+      "WEB_253503_Soroka.BlazorWasm.pdb": "sha256-JldlbuCkU+vfJDI1N9hfMhud+tm3c2ZtYGUHBCC2rE4="
     }
   },
   "cacheBootResources": true,
